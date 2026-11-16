@@ -1,0 +1,12 @@
+{
+  "split": "dev",
+  "retriever": "dense",
+  "top_k": 5,
+  "budget": 2000,
+  "max_searches": 3,
+  "n": 3,
+  "total_ms": 9359.8,
+  "errors": 0,
+  "answered": 3,
+  "abstain": 0
+}

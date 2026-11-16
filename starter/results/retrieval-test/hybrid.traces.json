@@ -1,0 +1,446 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Luật này áp dụng đối với những đối tượng nào?",
+    "method": "hybrid",
+    "filter": {
+      "document_id": "luat-gddt-2023"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "elapsed_ms": 21.33,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-gddt-2023:p001:struct:003",
+        "text": "Điều 2. Đối tượng áp dụng\nLuật này áp dụng đối với cơ quan, tổ chức, cá nhân trực tiếp tham gia giao dịch điện tử hoặc có liên quan đến giao dịch điện tử.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 1,
+        "metadata": {
+          "articles": [
+            2
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 4,
+          "article_title": "Đối tượng áp dụng",
+          "effective_date": "2024-07-01",
+          "article": 2,
+          "chapter": "I",
+          "year": 2023
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-gddt-2023:p026:struct:001",
+        "text": "d) Định kỳ hằng năm, báo cáo theo hướng dẫn của Bộ Thông tin và Truyền thông về vụ việc đã xảy ra hoặc vụ việc có dấu hiệu, nguy cơ lợi dụng hệ thống thông tin để thực hiện hành vi vi phạm pháp luật Việt Nam.\n3. Chủ quản nền tảng số trung gian quy mô rất lớn phục vụ giao dịch điện tử có trách nhiệm sau đây:\na) Tuân thủ quy định tại khoản 2 Điều này;\nb) Công bố công khai nguyên tắc chung, thông số hoặc tiêu chí được sử dụng để đưa ra khuyến nghị hiển thị nội dung, hiển thị quảng cáo cho người sử dụng và cho phép người sử dụng lựa chọn phương án không sử dụng khuyến nghị hiển thị nội dung, hiển thị quảng cáo dựa trên phân tích dữ liệu về người sử dụng;\nc) Cho phép người sử dụng tháo gỡ cài đặt bất kỳ ứng dụng nào được cài đặt sẵn mà không ảnh hưởng đến các tính năng kỹ thuật cơ bản để hệ thống vận hành bình thường;\nd) Công bố công khai và phổ biến bộ quy tắc ứng xử áp dụng đối với các bên liên quan tham gia sử dụng hệ thống.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 26,
+        "metadata": {
+          "articles": [
+            47
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 29,
+          "article_title": "Trách nhiệm của chủ quản hệ thống thông tin phục vụ giao dịch điện tử",
+          "effective_date": "2024-07-01",
+          "article": 47,
+          "chapter": "VI",
+          "year": 2023
+        },
+        "score": 0.031746,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-gddt-2023:p022:struct:002",
+        "text": "d) Áp dụng biện pháp bảo đảm an toàn thông tin mạng, an ninh mạng, bảo mật dữ liệu trong quá trình kết nối, chia sẻ dữ liệu theo quy định của pháp luật.\n2. Trừ trường hợp pháp luật có quy định khác, cơ quan nhà nước có trách nhiệm kết nối, chia sẻ dữ liệu với cơ quan, tổ chức khác; không cung cấp thông tin qua hình thức văn bản giấy đối với thông tin đã được khai thác qua hình thức kết nối, chia sẻ giữa các hệ thống thông tin; không thu phí việc chia sẻ dữ liệu giữa các cơ quan nhà nước.\n3. Cơ quan nhà nước phải áp dụng phương thức kết nối, chia sẻ dữ liệu trực tuyến trên môi trường mạng giữa các hệ thống thông tin của cơ quan cung cấp dữ liệu và cơ quan, tổ chức khai thác dữ liệu, trừ trường hợp thông tin liên quan đến bí mật nhà nước hoặc yêu cầu bảo đảm quốc phòng, an ninh. Trường hợp không áp dụng phương thức kết nối, chia sẻ dữ liệu trực tuyến, phải nêu rõ lý do bằng văn bản.\n4. Cơ quan nhà nước áp dụng mô hình kết nối, chia sẻ dữ liệu theo thứ tự ưu tiên sau đây:",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 22,
+        "metadata": {
+          "articles": [
+            42
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 25,
+          "article_title": "Kết nối, chia sẻ dữ liệu",
+          "effective_date": "2024-07-01",
+          "article": 42,
+          "chapter": "V",
+          "year": 2023
+        },
+        "score": 0.031514,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-gddt-2023:p001:struct:003 | data/raw/luat-20-2023-qh15-gddt.pdf | page 1]\nĐiều 2. Đối tượng áp dụng\nLuật này áp dụng đối với cơ quan, tổ chức, cá nhân trực tiếp tham gia giao dịch điện tử hoặc có liên quan đến giao dịch điện tử.",
+    "context_ids": [
+      "luat-gddt-2023:p001:struct:003"
+    ]
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Doanh nghiệp khởi nghiệp có được tạm không áp dụng một số quy định của Luật Bảo vệ dữ liệu cá nhân không, và trong bao lâu?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "elapsed_ms": 26.63,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "context_evidence": false,
+    "results": [
+      {
+        "id": "luat-bvdlcn-2025:p025:struct:000",
+        "text": "doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n3. Hộ kinh doanh, doanh nghiệp siêu nhỏ không phải thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này, trừ hộ kinh doanh, doanh nghiệp siêu nhỏ kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 25,
+        "metadata": {
+          "articles": [
+            38
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 37,
+          "article_title": "Hiệu lực thi hành",
+          "effective_date": "2026-01-01",
+          "article": 38,
+          "chapter": "V",
+          "year": 2025
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-bvdlcn-2025:p017:struct:001",
+        "text": "Điều 26. Bảo vệ dữ liệu cá nhân đối với thông tin sức khỏe và trong hoạt động kinh doanh bảo hiểm\n1. Việc bảo vệ dữ liệu cá nhân đối với các thông tin sức khỏe và trong hoạt động kinh doanh bảo hiểm được quy định như sau:\na) Phải có sự đồng ý của chủ thể dữ liệu cá nhân trong quá trình thu thập, xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 1 Điều 19 của Luật này;\nb) Áp dụng đầy đủ quy định về bảo vệ dữ liệu cá nhân, quy định khác của pháp luật có liên quan.\n2. Cơ quan, tổ chức, cá nhân hoạt động trong lĩnh vực sức khỏe không cung cấp dữ liệu cá nhân cho bên thứ ba là tổ chức cung cấp dịch vụ chăm sóc sức khỏe hoặc dịch vụ bảo hiểm sức khỏe, bảo hiểm nhân thọ, trừ trường hợp có yêu cầu bằng văn bản của chủ thể dữ liệu cá nhân hoặc trường hợp quy định tại khoản 1 Điều 19 của Luật này.\n3. Tổ chức, cá nhân phát triển ứng dụng về y tế, ứng dụng về kinh doanh bảo hiểm phải tuân thủ đầy đủ quy định về bảo vệ dữ liệu cá nhân.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 17,
+        "metadata": {
+          "articles": [
+            26
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 29,
+          "article_title": "Bảo vệ dữ liệu cá nhân đối với thông tin sức khỏe và trong hoạt động kinh doanh bảo hiểm",
+          "effective_date": "2026-01-01",
+          "article": 26,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.031258,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-anm-2025:p024:struct:002",
+        "text": "3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá nhân, dữ liệu về mối quan hệ của người sử dụng dịch vụ, dữ liệu do người sử dụng dịch vụ tại Việt Nam tạo ra phải áp dụng các biện pháp bảo vệ dữ liệu theo quy định của pháp luật và lưu trữ dữ liệu này tại Việt Nam trong thời gian theo quy định của Chính phủ. Doanh nghiệp ngoài nước quy định tại khoản này phải đặt chi nhánh hoặc văn phòng đại diện tại Việt Nam.\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 24,
+        "metadata": {
+          "articles": [
+            25
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 27,
+          "article_title": "Bảo đảm an ninh thông tin mạng",
+          "effective_date": "2026-07-01",
+          "article": 25,
+          "chapter": "IV",
+          "year": 2025
+        },
+        "score": 0.03125,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-bvdlcn-2025:p025:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 25]\ndoanh nghiệp nhỏ, doanh nghiệp khởi nghiệp kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n3. Hộ kinh doanh, doanh nghiệp siêu nhỏ không phải thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này, trừ hộ kinh doanh, doanh nghiệp siêu nhỏ kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.",
+    "context_ids": [
+      "luat-bvdlcn-2025:p025:struct:000"
+    ]
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Hệ thống thông tin đã được phân cấp độ theo Luật An toàn thông tin mạng cũ có phải xác định lại cấp độ không, và có bao lâu để đáp ứng yêu cầu mới?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "elapsed_ms": 26.89,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-anm-2025:p036:struct:003",
+        "text": "Điều 45. Điều khoản chuyển tiếp\n1. Hệ thống thông tin đã được xác định cấp độ theo quy định của Luật An toàn thông tin mạng số 86/2015/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 thì tiếp tục giữ cấp độ đã được xác định kể từ ngày Luật này có hiệu lực thi hành; trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực thi hành thì phải bảo đảm điều kiện, tiêu chuẩn, biện pháp bảo vệ an ninh mạng tương ứng với cấp độ theo quy định của Luật này.\n2. Các loại giấy phép kinh doanh sản phẩm, dịch vụ an toàn thông tin mạng, mật mã dân sự theo quy định của Luật An toàn thông tin mạng số 86/2015/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 36,
+        "metadata": {
+          "articles": [
+            45
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 39,
+          "article_title": "Điều khoản chuyển tiếp",
+          "effective_date": "2026-07-01",
+          "article": 45,
+          "chapter": "VIII",
+          "year": 2025
+        },
+        "score": 0.032522,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-anm-2025:p008:struct:002",
+        "text": "đ) Cấp độ 5 có thể làm tổn hại đặc biệt nghiêm trọng tới an ninh quốc gia.\n2. Chính phủ quy định chi tiết tiêu chí xác định cấp độ hệ thống thông tin; quy định thẩm quyền, trình tự, thủ tục xác định cấp độ hệ thống thông tin và biện pháp, trách nhiệm, nghĩa vụ bảo đảm an ninh mạng theo từng cấp độ của hệ thống thông tin.",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 8,
+        "metadata": {
+          "articles": [
+            8
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 11,
+          "article_title": "Phân loại cấp độ hệ thống thông tin",
+          "effective_date": "2026-07-01",
+          "article": 8,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.031545,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-anm-2025:p010:struct:001",
+        "text": "3. Chủ quản hệ thống thông tin thuộc Cấp độ 1, Cấp độ 2 thực hiện đầy đủ các nhiệm vụ quy định tại khoản 1 Điều này và theo nhu cầu, khả năng thực tế lựa chọn áp dụng biện pháp quy định tại khoản 2 Điều này.\n4. Chủ quản hệ thống thông tin thuộc Cấp độ 3, Cấp độ 4 không thuộc danh mục hệ thống thông tin quan trọng về an ninh quốc gia thực hiện đầy đủ các nhiệm vụ quy định tại khoản 1 Điều này, các biện pháp quy định tại các điểm a, d, đ, e, g và h khoản 2 Điều này và theo nhu cầu, khả năng thực tế lựa chọn áp dụng biện pháp quy định tại điểm b và điểm c khoản 2 Điều này.\n5. Chủ quản hệ thống thông tin thuộc danh mục hệ thống thông tin quan trọng về an ninh quốc gia thực hiện đầy đủ các nhiệm vụ, biện pháp quy định tại khoản 1 và khoản 2 Điều này.\n6. Chính phủ quy định chi tiết khoản 1 và khoản 2 Điều này.",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 10,
+        "metadata": {
+          "articles": [
+            10
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 13,
+          "article_title": "Nhiệm vụ, biện pháp bảo vệ an ninh mạng đối với hệ thống thông tin",
+          "effective_date": "2026-07-01",
+          "article": 10,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.03009,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-anm-2025:p036:struct:003 | data/raw/luat-116-2025-qh15-anm.pdf | page 36]\nĐiều 45. Điều khoản chuyển tiếp\n1. Hệ thống thông tin đã được xác định cấp độ theo quy định của Luật An toàn thông tin mạng số 86/2015/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 thì tiếp tục giữ cấp độ đã được xác định kể từ ngày Luật này có hiệu lực thi hành; trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực thi hành thì phải bảo đảm điều kiện, tiêu chuẩn, biện pháp bảo vệ an ninh mạng tương ứng với cấp độ theo quy định của Luật này.\n2. Các loại giấy phép kinh doanh sản phẩm, dịch vụ an toàn thông tin mạng, mật mã dân sự theo quy định của Luật An toàn thông tin mạng số 86/2015/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14",
+    "context_ids": [
+      "luat-anm-2025:p036:struct:003"
+    ]
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Xác nhận đăng ký dịch vụ chứng thực hợp đồng điện tử trong thương mại đã cấp trước khi Luật Giao dịch điện tử 2023 có hiệu lực được tiếp tục sử dụng đến khi nào?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "elapsed_ms": 27.88,
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "context_evidence": false,
+    "results": [
+      {
+        "id": "luat-gddt-2023:p030:struct:002",
+        "text": "6. Đối với hồ sơ đăng ký hoạt động cung cấp dịch vụ chứng thực hợp đồng điện tử trong thương mại đã nộp cho cơ quan nhà nước có thẩm quyền nhưng đến ngày Luật này có hiệu lực thi hành chưa được xác nhận đăng ký thì được tiếp tục áp dụng quy định của pháp luật về thương mại điện tử.\n7. Chính phủ quy định chi tiết Điều này./. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 5 thông qua ngày 22 tháng 6 năm 2023.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 30,
+        "metadata": {
+          "articles": [
+            53
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 33,
+          "article_title": "Quy định chuyển tiếp",
+          "effective_date": "2024-07-01",
+          "article": 53,
+          "chapter": "VIII",
+          "year": 2023
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-gddt-2023:p030:struct:001",
+        "text": "4. Đối với hồ sơ đề nghị cấp Giấy phép cung cấp dịch vụ chứng thực chữ ký số công cộng, Giấy phép sử dụng chứng thư số nước ngoài tại Việt Nam, Giấy chứng nhận đăng ký hoạt động của tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng, Giấy chứng nhận đủ điều kiện đảm bảo an toàn cho chữ ký số chuyên dùng đã nộp cho cơ quan nhà nước có thẩm quyền nhưng đến ngày Luật này có hiệu lực thi hành chưa được cấp giấy phép, giấy chứng nhận thì được tiếp tục áp dụng quy định của Luật Giao dịch điện tử số 51/2005/QH11 và các văn bản quy phạm pháp luật quy định chi tiết Luật Giao dịch điện tử số 51/2005/QH11.\n5. Xác nhận đăng ký hoạt động cung cấp dịch vụ chứng thực hợp đồng điện tử trong thương mại đã được cấp trước ngày Luật này có hiệu lực thi hành thì được tiếp tục sử dụng đến hết ngày 30 tháng 6 năm 2027.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 30,
+        "metadata": {
+          "articles": [
+            53
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 33,
+          "article_title": "Quy định chuyển tiếp",
+          "effective_date": "2024-07-01",
+          "article": 53,
+          "chapter": "VIII",
+          "year": 2023
+        },
+        "score": 0.032258,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-gddt-2023:p029:struct:002",
+        "text": "Điều 53. Quy định chuyển tiếp\n1. Giao dịch điện tử được xác lập trước ngày Luật này có hiệu lực thi hành và đến ngày Luật này có hiệu lực thi hành chưa thực hiện xong thì được tiếp tục thực hiện theo quy định của Luật Giao dịch điện tử số 51/2005/QH11 và các văn bản quy phạm pháp luật quy định chi tiết Luật Giao dịch điện tử số 51/2005/QH11, trừ trường hợp các bên thỏa thuận áp dụng quy định của Luật này.\n2. Chứng thư số được cấp trước ngày Luật này có hiệu lực thi hành và đến ngày Luật này có hiệu lực thi hành vẫn còn hiệu lực thì được tiếp tục thực hiện theo quy định của Luật Giao dịch điện tử số 51/2005/QH11 và các văn bản quy phạm pháp luật quy định chi tiết Luật Giao dịch điện tử số 51/2005/QH11 đến hết thời hạn của chứng thư số và có giá trị tương đương chứng thư chữ ký số theo quy định của Luật này.\n3. Giấy phép cung cấp dịch vụ chứng thực chữ ký số công cộng, Giấy phép sử dụng chứng thư số nước ngoài tại Việt Nam, Giấy chứng nhận đăng ký hoạt",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 29,
+        "metadata": {
+          "articles": [
+            53
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 32,
+          "article_title": "Quy định chuyển tiếp",
+          "effective_date": "2024-07-01",
+          "article": 53,
+          "chapter": "VIII",
+          "year": 2023
+        },
+        "score": 0.031498,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-gddt-2023:p030:struct:002 | data/raw/luat-20-2023-qh15-gddt.pdf | page 30]\n6. Đối với hồ sơ đăng ký hoạt động cung cấp dịch vụ chứng thực hợp đồng điện tử trong thương mại đã nộp cho cơ quan nhà nước có thẩm quyền nhưng đến ngày Luật này có hiệu lực thi hành chưa được xác nhận đăng ký thì được tiếp tục áp dụng quy định của pháp luật về thương mại điện tử.\n7. Chính phủ quy định chi tiết Điều này./. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 5 thông qua ngày 22 tháng 6 năm 2023.",
+    "context_ids": [
+      "luat-gddt-2023:p030:struct:002"
+    ]
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Luật này quy định về những nội dung gì?",
+    "method": "hybrid",
+    "filter": {
+      "document_id": "luat-bvdlcn-2025"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "elapsed_ms": 23.11,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-bvdlcn-2025:p001:struct:002",
+        "text": "Chương I\nNHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh và đối tượng áp dụng\n1. Luật này quy định về dữ liệu cá nhân, bảo vệ dữ liệu cá nhân và quyền, nghĩa vụ, trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.\n2. Luật này áp dụng đối với:\na) Cơ quan, tổ chức, cá nhân Việt Nam;\nb) Cơ quan, tổ chức, cá nhân nước ngoài tại Việt Nam;\nc) Cơ quan, tổ chức, cá nhân nước ngoài trực tiếp tham gia hoặc có liên quan đến hoạt động xử lý dữ liệu cá nhân của công dân Việt Nam và người gốc Việt Nam chưa xác định được quốc tịch đang sinh sống tại Việt Nam đã được cấp giấy chứng nhận căn cước.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 1,
+        "metadata": {
+          "articles": [
+            1
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 13,
+          "article_title": "Phạm vi điều chỉnh và đối tượng áp dụng",
+          "effective_date": "2026-01-01",
+          "article": 1,
+          "chapter": "I",
+          "year": 2025
+        },
+        "score": 0.031778,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-bvdlcn-2025:p015:struct:002",
+        "text": "5. Chính phủ quy định nội dung thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 15,
+        "metadata": {
+          "articles": [
+            23
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 27,
+          "article_title": "Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 23,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.031545,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-bvdlcn-2025:p022:struct:000",
+        "text": "mục đích thu thập, trừ trường hợp pháp luật có quy định khác. Khi hết thời hạn lưu trữ, dữ liệu cá nhân phải được xóa, hủy theo quy định của Luật này.\n5. Cơ quan, tổ chức, cá nhân thực hiện ghi âm, ghi hình, xử lý dữ liệu cá nhân thu được từ ghi âm, ghi hình trong các trường hợp quy định tại khoản 1 Điều này có trách nhiệm bảo vệ dữ liệu cá nhân theo quy định của Luật này và quy định khác của pháp luật có liên quan.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 22,
+        "metadata": {
+          "articles": [
+            32
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 34,
+          "article_title": "Bảo vệ dữ liệu cá nhân thu được từ hoạt động ghi âm, ghi hình tại nơi công cộng, hoạt động công cộng",
+          "effective_date": "2026-01-01",
+          "article": 32,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.02971,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-bvdlcn-2025:p001:struct:002 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 1]\nChương I\nNHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh và đối tượng áp dụng\n1. Luật này quy định về dữ liệu cá nhân, bảo vệ dữ liệu cá nhân và quyền, nghĩa vụ, trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.\n2. Luật này áp dụng đối với:\na) Cơ quan, tổ chức, cá nhân Việt Nam;\nb) Cơ quan, tổ chức, cá nhân nước ngoài tại Việt Nam;\nc) Cơ quan, tổ chức, cá nhân nước ngoài trực tiếp tham gia hoặc có liên quan đến hoạt động xử lý dữ liệu cá nhân của công dân Việt Nam và người gốc Việt Nam chưa xác định được quốc tịch đang sinh sống tại Việt Nam đã được cấp giấy chứng nhận căn cước.",
+    "context_ids": [
+      "luat-bvdlcn-2025:p001:struct:002"
+    ]
+  }
+]

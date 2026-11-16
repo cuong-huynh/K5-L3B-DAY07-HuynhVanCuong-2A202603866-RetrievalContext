@@ -1,0 +1,440 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Khi phát hiện vi phạm quy định về bảo vệ dữ liệu cá nhân có thể gây tổn hại đến an ninh quốc gia, bên kiểm soát dữ liệu cá nhân phải thông báo cho cơ quan chuyên trách trong thời hạn bao lâu?",
+    "answerable": true,
+    "filter": null,
+    "retriever": "dense",
+    "top_k": 5,
+    "budget": 2000,
+    "max_searches": 3,
+    "status": "answered",
+    "answer": "Khi phát hiện vi phạm quy định về bảo vệ dữ liệu cá nhân có thể gây tổn hại đến an ninh quốc gia, bên kiểm soát dữ liệu cá nhân phải thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất là 72 giờ kể từ khi phát hiện hành vi vi phạm [luat-bvdlcn-2025:p015:struct:000].",
+    "citations": [
+      "luat-bvdlcn-2025:p015:struct:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "thông báo vi phạm dữ liệu cá nhân tổn hại an ninh quốc gia thời hạn cơ quan chuyên trách",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-bvdlcn-2025:p015:struct:000",
+            "text": "Điều 23. Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân\n1. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên thứ ba phát hiện vi phạm quy định về bảo vệ dữ liệu cá nhân có thể gây tổn hại đến quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội hoặc xâm phạm đến tính mạng, sức khỏe, danh dự, nhân phẩm, tài sản của chủ thể dữ liệu cá nhân thì phải thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất là 72 giờ kể từ khi phát hiện hành vi vi phạm. Trường hợp bên xử lý dữ liệu cá nhân phát hiện hành vi vi phạm phải thông báo kịp thời cho bên kiểm soát dữ liệu cá nhân hoặc bên kiểm soát và xử lý dữ liệu cá nhân.\n2. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải lập biên bản xác nhận về việc xảy ra hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân, phối hợp với cơ quan chuyên trách bảo vệ dữ liệu cá nhân xử lý hành vi vi phạm.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 15,
+            "metadata": {
+              "articles": [
+                23
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 27,
+              "article_title": "Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân",
+              "effective_date": "2026-01-01",
+              "article": 23,
+              "chapter": "II",
+              "year": 2025
+            },
+            "score": 0.9203,
+            "strategy": "dense_e5_pgvector"
+          },
+          {
+            "id": "luat-bvdlcn-2025:p015:struct:001",
+            "text": "3. Cơ quan, tổ chức, cá nhân thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong các trường hợp sau đây:\na) Phát hiện hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân;\nb) Dữ liệu cá nhân bị xử lý sai mục đích, không đúng thỏa thuận giữa chủ thể dữ liệu cá nhân với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân;\nc) Không bảo đảm quyền hoặc thực hiện không đúng quyền của chủ thể dữ liệu cá nhân;\nd) Trường hợp khác theo quy định của pháp luật.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân có trách nhiệm tiếp nhận thông báo, xử lý hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên thứ ba và cơ quan, tổ chức, cá nhân có liên quan có trách nhiệm ngăn chặn hành vi vi phạm, khắc phục hậu quả xảy ra và phối hợp cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong xử lý hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 15,
+            "metadata": {
+              "articles": [
+                23
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 27,
+              "article_title": "Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân",
+              "effective_date": "2026-01-01",
+              "article": 23,
+              "chapter": "II",
+              "year": 2025
+            },
+            "score": 0.8992,
+            "strategy": "dense_e5_pgvector"
+          },
+          {
+            "id": "luat-bvdlcn-2025:p013:struct:000",
+            "text": "chuyển dữ liệu cá nhân xuyên biên giới và gửi 01 bản chính cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong thời gian 60 ngày kể từ ngày đầu tiên chuyển dữ liệu cá nhân xuyên biên giới, trừ trường hợp quy định tại khoản 6 Điều này.\n3. Đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được thực hiện 01 lần cho suốt thời gian hoạt động của cơ quan, tổ chức, cá nhân đó và được cập nhật theo quy định tại Điều 22 của Luật này.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân quyết định việc kiểm tra chuyển dữ liệu cá nhân xuyên biên giới định kỳ không quá 01 lần trong năm hoặc kiểm tra đột xuất khi phát hiện hành vi vi phạm quy định của pháp luật về bảo vệ dữ liệu cá nhân hoặc khi xảy ra sự cố lộ, mất dữ liệu cá nhân.\n5. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân quyết định yêu cầu ngừng chuyển dữ liệu cá nhân xuyên biên giới của cơ quan, tổ chức, cá nhân khi phát hiện dữ liệu cá nhân được chuyển để sử dụng vào hoạt động có thể gây tổn hại đến quốc phòng, an ninh quốc gia.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 13,
+            "metadata": {
+              "articles": [
+                20
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 25,
+              "article_title": "Chuyển dữ liệu cá nhân xuyên biên giới",
+              "effective_date": "2026-01-01",
+              "article": 20,
+              "chapter": "II",
+              "year": 2025
+            },
+            "score": 0.8991,
+            "strategy": "dense_e5_pgvector"
+          },
+          {
+            "id": "luat-anm-2025:p024:struct:000",
+            "text": "giờ kể từ thời điểm có yêu cầu bằng văn bản hoặc thư điện tử, điện thoại hoặc hình thức trao đổi khác đã được xác nhận để phục vụ xác minh, điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng; trường hợp khẩn cấp đe dọa xâm hại an ninh quốc gia, đe dọa tính mạng con người, yêu cầu cung cấp thông tin chậm nhất là 03 giờ;\nb) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin, gỡ bỏ dịch vụ, ứng dụng có nội dung vi phạm quy định của Luật này chậm nhất là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an và lưu nhật ký hệ thống để phục vụ xác minh, điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng trong thời gian theo quy định của pháp luật; trường hợp khẩn cấp đe dọa xâm hại an ninh quốc gia, yêu cầu ngăn chặn, xóa bỏ thông tin chậm nhất là 06 giờ;",
+            "source_id": "luat-anm-2025",
+            "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+            "page": 24,
+            "metadata": {
+              "articles": [
+                25
+              ],
+              "law_title": "Luật An ninh mạng",
+              "law_number": "116/2025/QH15",
+              "gazette_page": 27,
+              "article_title": "Bảo đảm an ninh thông tin mạng",
+              "effective_date": "2026-07-01",
+              "article": 25,
+              "chapter": "IV",
+              "year": 2025
+            },
+            "score": 0.8906,
+            "strategy": "dense_e5_pgvector"
+          },
+          {
+            "id": "luat-bvdlcn-2025:p015:struct:002",
+            "text": "5. Chính phủ quy định nội dung thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 15,
+            "metadata": {
+              "articles": [
+                23
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 27,
+              "article_title": "Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân",
+              "effective_date": "2026-01-01",
+              "article": 23,
+              "chapter": "II",
+              "year": 2025
+            },
+            "score": 0.8827,
+            "strategy": "dense_e5_pgvector"
+          }
+        ],
+        "context": "[luat-bvdlcn-2025:p015:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 15]\nĐiều 23. Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân\n1. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên thứ ba phát hiện vi phạm quy định về bảo vệ dữ liệu cá nhân có thể gây tổn hại đến quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội hoặc xâm phạm đến tính mạng, sức khỏe, danh dự, nhân phẩm, tài sản của chủ thể dữ liệu cá nhân thì phải thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất là 72 giờ kể từ khi phát hiện hành vi vi phạm. Trường hợp bên xử lý dữ liệu cá nhân phát hiện hành vi vi phạm phải thông báo kịp thời cho bên kiểm soát dữ liệu cá nhân hoặc bên kiểm soát và xử lý dữ liệu cá nhân.\n2. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải lập biên bản xác nhận về việc xảy ra hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân, phối hợp với cơ quan chuyên trách bảo vệ dữ liệu cá nhân xử lý hành vi vi phạm.\n\n[luat-bvdlcn-2025:p015:struct:001 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 15]\n3. Cơ quan, tổ chức, cá nhân thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong các trường hợp sau đây:\na) Phát hiện hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân;\nb) Dữ liệu cá nhân bị xử lý sai mục đích, không đúng thỏa thuận giữa chủ thể dữ liệu cá nhân với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân;\nc) Không bảo đảm quyền hoặc thực hiện không đúng quyền của chủ thể dữ liệu cá nhân;\nd) Trường hợp khác theo quy định của pháp luật.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân có trách nhiệm tiếp nhận thông báo, xử lý hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên thứ ba và cơ quan, tổ chức, cá nhân có liên quan có trách nhiệm ngăn chặn hành vi vi phạm, khắc phục hậu quả xảy ra và phối hợp cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong xử lý hành vi vi phạm qu…",
+        "context_ids": [
+          "luat-bvdlcn-2025:p015:struct:000",
+          "luat-bvdlcn-2025:p015:struct:001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 4359.59,
+    "error": null,
+    "cost_usd": null
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Mức phạt tiền tối đa đối với hành vi mua, bán dữ liệu cá nhân là bao nhiêu?",
+    "answerable": true,
+    "filter": null,
+    "retriever": "dense",
+    "top_k": 5,
+    "budget": 2000,
+    "max_searches": 3,
+    "status": "answered",
+    "answer": "Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền tối đa đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng [luat-bvdlcn-2025:p006:struct:000].",
+    "citations": [
+      "luat-bvdlcn-2025:p006:struct:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "mức phạt tiền mua bán dữ liệu cá nhân",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-bvdlcn-2025:p006:struct:000",
+            "text": "3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 6,
+            "metadata": {
+              "articles": [
+                8
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 18,
+              "article_title": "Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân",
+              "effective_date": "2026-01-01",
+              "article": 8,
+              "chapter": "I",
+              "year": 2025
+            },
+            "score": 0.926,
+            "strategy": "dense_e5_pgvector"
+          },
+          {
+            "id": "luat-bvdlcn-2025:p011:struct:000",
+            "text": "c) Chuyển giao dữ liệu cá nhân để tiếp tục xử lý dữ liệu cá nhân trong trường hợp chia, tách, sáp nhập cơ quan, tổ chức, đơn vị hành chính và tổ chức lại, chuyển đổi hình thức sở hữu doanh nghiệp nhà nước; chia, tách, sáp nhập, hợp nhất, kết thúc hoạt động đơn vị, tổ chức; đơn vị, tổ chức được thành lập trên cơ sở kết thúc hoạt động của đơn vị, tổ chức khác;\nd) Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân chuyển giao dữ liệu cá nhân cho bên xử lý dữ liệu cá nhân, bên thứ ba để xử lý dữ liệu cá nhân theo quy định;\nđ) Chuyển giao dữ liệu cá nhân theo yêu cầu của cơ quan nhà nước có thẩm quyền;\ne) Chuyển giao dữ liệu cá nhân trong các trường hợp quy định tại khoản 1 Điều 19 của Luật này.\n2. Việc chuyển giao dữ liệu cá nhân trong các trường hợp quy định tại khoản 1 Điều này có thu phí hoặc không thu phí thì không được xác định là mua, bán dữ liệu cá nhân.\n3. Chính phủ quy định chi tiết Điều này.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 11,
+            "metadata": {
+              "articles": [
+                17
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 23,
+              "article_title": "Chuyển giao dữ liệu cá nhân",
+              "effective_date": "2026-01-01",
+              "article": 17,
+              "chapter": "II",
+              "year": 2025
+            },
+            "score": 0.8887,
+            "strategy": "dense_e5_pgvector"
+          },
+          {
+            "id": "luat-bvdlcn-2025:p005:struct:001",
+            "text": "Điều 7. Hành vi bị nghiêm cấm\n1. Xử lý dữ liệu cá nhân nhằm chống lại Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, gây ảnh hưởng đến quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, quyền, lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n2. Cản trở hoạt động bảo vệ dữ liệu cá nhân.\n3. Lợi dụng hoạt động bảo vệ dữ liệu cá nhân để thực hiện hành vi vi phạm pháp luật.\n4. Xử lý dữ liệu cá nhân trái quy định của pháp luật.\n5. Sử dụng dữ liệu cá nhân của người khác, cho người khác sử dụng dữ liệu cá nhân của mình để thực hiện hành vi trái quy định của pháp luật.\n6. Mua, bán dữ liệu cá nhân, trừ trường hợp luật có quy định khác.\n7. Chiếm đoạt, cố ý làm lộ, làm mất dữ liệu cá nhân.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 5,
+            "metadata": {
+              "articles": [
+                7
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 17,
+              "article_title": "Hành vi bị nghiêm cấm",
+              "effective_date": "2026-01-01",
+              "article": 7,
+              "chapter": "I",
+              "year": 2025
+            },
+            "score": 0.8882,
+            "strategy": "dense_e5_pgvector"
+          },
+          {
+            "id": "luat-bvdlcn-2025:p004:struct:000",
+            "text": "b) Không được gây khó khăn, cản trở việc thực hiện quyền, nghĩa vụ pháp lý của bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân;\nc) Không được xâm phạm đến quyền, lợi ích hợp pháp của Nhà nước, cơ quan, tổ chức, cá nhân khác.\n4. Cơ quan, tổ chức, cá nhân có trách nhiệm tạo điều kiện thuận lợi, không được gây khó khăn, cản trở việc thực hiện quyền và nghĩa vụ của chủ thể dữ liệu cá nhân theo quy định của pháp luật.\n5. Khi nhận được yêu cầu của chủ thể dữ liệu cá nhân để thực hiện quyền của chủ thể dữ liệu cá nhân quy định tại khoản 1 Điều này, bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải kịp thời thực hiện trong thời hạn theo quy định của pháp luật. Chính phủ quy định chi tiết khoản này.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 4,
+            "metadata": {
+              "articles": [
+                4
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 16,
+              "article_title": "Quyền và nghĩa vụ của chủ thể dữ liệu cá nhân",
+              "effective_date": "2026-01-01",
+              "article": 4,
+              "chapter": "I",
+              "year": 2025
+            },
+            "score": 0.8857,
+            "strategy": "dense_e5_pgvector"
+          },
+          {
+            "id": "luat-bvdlcn-2025:p020:struct:002",
+            "text": "4. Việc xử lý dữ liệu cá nhân bằng trí tuệ nhân tạo phải thực hiện phân loại theo mức độ rủi ro để có biện pháp bảo vệ dữ liệu cá nhân phù hợp.\n5. Không sử dụng, phát triển hệ thống xử lý dữ liệu lớn, trí tuệ nhân tạo, chuỗi khối, vũ trụ ảo, điện toán đám mây có sử dụng dữ liệu cá nhân để gây tổn hại đến quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội hoặc xâm phạm đến tính mạng, sức khỏe, danh dự, nhân phẩm, tài sản của người khác.\n6. Chính phủ quy định chi tiết Điều này.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 20,
+            "metadata": {
+              "articles": [
+                30
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 32,
+              "article_title": "Bảo vệ dữ liệu cá nhân trong xử lý dữ liệu lớn, trí tuệ nhân tạo, chuỗi khối, vũ trụ ảo, điện toán đám mây",
+              "effective_date": "2026-01-01",
+              "article": 30,
+              "chapter": "II",
+              "year": 2025
+            },
+            "score": 0.881,
+            "strategy": "dense_e5_pgvector"
+          }
+        ],
+        "context": "[luat-bvdlcn-2025:p006:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 6]\n3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.\n\n[luat-bvdlcn-2025:p011:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 11]\nc) Chuyển giao dữ liệu cá nhân để tiếp tục xử lý dữ liệu cá nhân trong trường hợp chia, tách, sáp nhập cơ quan, tổ chức, đơn vị hành chính và tổ chức lại, chuyển đổi hình thức sở hữu doanh nghiệp nhà nước; chia, tách, sáp nhập, hợp nhất, kết thúc hoạt động đơn vị, tổ chức; đơn vị, tổ chức được thành lập trên cơ sở kết thúc hoạt động của đơn vị, tổ chức khác;\nd) Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân chuyển giao dữ liệu cá nhân cho bên xử lý dữ liệu cá nhân, bên thứ ba để xử lý dữ liệu cá nhân theo quy định;\nđ) Chuyển giao dữ liệu cá nhân theo yêu cầu của cơ quan nhà nước có thẩm quyền;\ne) Chuyển giao dữ liệu cá nhân trong các trường hợp quy định tại khoản 1 Điều 19 của Luật này.\n2. Việc chuyển giao dữ liệu cá nhân trong các trường hợp quy định tại khoản 1 Điều này có thu phí hoặc không thu phí thì không được xác định là mua, bán dữ liệu cá…",
+        "context_ids": [
+          "luat-bvdlcn-2025:p006:struct:000",
+          "luat-bvdlcn-2025:p011:struct:000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2553.94,
+    "error": null,
+    "cost_usd": null
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Một công ty đưa dữ liệu cá nhân ra nước ngoài trái quy định thì có thể bị phạt tối đa bao nhiêu?",
+    "answerable": true,
+    "filter": null,
+    "retriever": "dense",
+    "top_k": 5,
+    "budget": 2000,
+    "max_searches": 3,
+    "status": "answered",
+    "answer": "Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới (đưa dữ liệu cá nhân ra nước ngoài) là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này (03 tỷ đồng) [luat-bvdlcn-2025:p006:struct:000].",
+    "citations": [
+      "luat-bvdlcn-2025:p006:struct:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "chuyển dữ liệu cá nhân ra nước ngoài trái quy định phạt tối đa",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-bvdlcn-2025:p006:struct:000",
+            "text": "3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 6,
+            "metadata": {
+              "articles": [
+                8
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 18,
+              "article_title": "Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân",
+              "effective_date": "2026-01-01",
+              "article": 8,
+              "chapter": "I",
+              "year": 2025
+            },
+            "score": 0.9219,
+            "strategy": "dense_e5_pgvector"
+          },
+          {
+            "id": "luat-bvdlcn-2025:p011:struct:000",
+            "text": "c) Chuyển giao dữ liệu cá nhân để tiếp tục xử lý dữ liệu cá nhân trong trường hợp chia, tách, sáp nhập cơ quan, tổ chức, đơn vị hành chính và tổ chức lại, chuyển đổi hình thức sở hữu doanh nghiệp nhà nước; chia, tách, sáp nhập, hợp nhất, kết thúc hoạt động đơn vị, tổ chức; đơn vị, tổ chức được thành lập trên cơ sở kết thúc hoạt động của đơn vị, tổ chức khác;\nd) Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân chuyển giao dữ liệu cá nhân cho bên xử lý dữ liệu cá nhân, bên thứ ba để xử lý dữ liệu cá nhân theo quy định;\nđ) Chuyển giao dữ liệu cá nhân theo yêu cầu của cơ quan nhà nước có thẩm quyền;\ne) Chuyển giao dữ liệu cá nhân trong các trường hợp quy định tại khoản 1 Điều 19 của Luật này.\n2. Việc chuyển giao dữ liệu cá nhân trong các trường hợp quy định tại khoản 1 Điều này có thu phí hoặc không thu phí thì không được xác định là mua, bán dữ liệu cá nhân.\n3. Chính phủ quy định chi tiết Điều này.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 11,
+            "metadata": {
+              "articles": [
+                17
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 23,
+              "article_title": "Chuyển giao dữ liệu cá nhân",
+              "effective_date": "2026-01-01",
+              "article": 17,
+              "chapter": "II",
+              "year": 2025
+            },
+            "score": 0.9001,
+            "strategy": "dense_e5_pgvector"
+          },
+          {
+            "id": "luat-bvdlcn-2025:p004:struct:000",
+            "text": "b) Không được gây khó khăn, cản trở việc thực hiện quyền, nghĩa vụ pháp lý của bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân;\nc) Không được xâm phạm đến quyền, lợi ích hợp pháp của Nhà nước, cơ quan, tổ chức, cá nhân khác.\n4. Cơ quan, tổ chức, cá nhân có trách nhiệm tạo điều kiện thuận lợi, không được gây khó khăn, cản trở việc thực hiện quyền và nghĩa vụ của chủ thể dữ liệu cá nhân theo quy định của pháp luật.\n5. Khi nhận được yêu cầu của chủ thể dữ liệu cá nhân để thực hiện quyền của chủ thể dữ liệu cá nhân quy định tại khoản 1 Điều này, bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải kịp thời thực hiện trong thời hạn theo quy định của pháp luật. Chính phủ quy định chi tiết khoản này.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 4,
+            "metadata": {
+              "articles": [
+                4
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 16,
+              "article_title": "Quyền và nghĩa vụ của chủ thể dữ liệu cá nhân",
+              "effective_date": "2026-01-01",
+              "article": 4,
+              "chapter": "I",
+              "year": 2025
+            },
+            "score": 0.8964,
+            "strategy": "dense_e5_pgvector"
+          },
+          {
+            "id": "luat-bvdlcn-2025:p025:struct:002",
+            "text": "2. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo quy định của Nghị định số 13/2023/ NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ đã được cơ quan chuyên trách bảo vệ dữ liệu cá nhân tiếp nhận trước ngày Luật này có hiệu lực thi hành thì tiếp tục được sử dụng và không phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này; việc cập nhật các hồ sơ đã lập nêu trên sau ngày Luật này có hiệu lực thi hành thì thực hiện theo quy định của Luật này./. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 9 thông qua ngày 26 tháng 6 năm 2025.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 25,
+            "metadata": {
+              "articles": [
+                39
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 37,
+              "article_title": "Quy định chuyển tiếp",
+              "effective_date": "2026-01-01",
+              "article": 39,
+              "chapter": "V",
+              "year": 2025
+            },
+            "score": 0.8933,
+            "strategy": "dense_e5_pgvector"
+          },
+          {
+            "id": "luat-bvdlcn-2025:p013:struct:000",
+            "text": "chuyển dữ liệu cá nhân xuyên biên giới và gửi 01 bản chính cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong thời gian 60 ngày kể từ ngày đầu tiên chuyển dữ liệu cá nhân xuyên biên giới, trừ trường hợp quy định tại khoản 6 Điều này.\n3. Đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được thực hiện 01 lần cho suốt thời gian hoạt động của cơ quan, tổ chức, cá nhân đó và được cập nhật theo quy định tại Điều 22 của Luật này.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân quyết định việc kiểm tra chuyển dữ liệu cá nhân xuyên biên giới định kỳ không quá 01 lần trong năm hoặc kiểm tra đột xuất khi phát hiện hành vi vi phạm quy định của pháp luật về bảo vệ dữ liệu cá nhân hoặc khi xảy ra sự cố lộ, mất dữ liệu cá nhân.\n5. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân quyết định yêu cầu ngừng chuyển dữ liệu cá nhân xuyên biên giới của cơ quan, tổ chức, cá nhân khi phát hiện dữ liệu cá nhân được chuyển để sử dụng vào hoạt động có thể gây tổn hại đến quốc phòng, an ninh quốc gia.",
+            "source_id": "luat-bvdlcn-2025",
+            "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+            "page": 13,
+            "metadata": {
+              "articles": [
+                20
+              ],
+              "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+              "law_number": "91/2025/QH15",
+              "gazette_page": 25,
+              "article_title": "Chuyển dữ liệu cá nhân xuyên biên giới",
+              "effective_date": "2026-01-01",
+              "article": 20,
+              "chapter": "II",
+              "year": 2025
+            },
+            "score": 0.892,
+            "strategy": "dense_e5_pgvector"
+          }
+        ],
+        "context": "[luat-bvdlcn-2025:p006:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 6]\n3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.\n\n[luat-bvdlcn-2025:p011:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 11]\nc) Chuyển giao dữ liệu cá nhân để tiếp tục xử lý dữ liệu cá nhân trong trường hợp chia, tách, sáp nhập cơ quan, tổ chức, đơn vị hành chính và tổ chức lại, chuyển đổi hình thức sở hữu doanh nghiệp nhà nước; chia, tách, sáp nhập, hợp nhất, kết thúc hoạt động đơn vị, tổ chức; đơn vị, tổ chức được thành lập trên cơ sở kết thúc hoạt động của đơn vị, tổ chức khác;\nd) Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân chuyển giao dữ liệu cá nhân cho bên xử lý dữ liệu cá nhân, bên thứ ba để xử lý dữ liệu cá nhân theo quy định;\nđ) Chuyển giao dữ liệu cá nhân theo yêu cầu của cơ quan nhà nước có thẩm quyền;\ne) Chuyển giao dữ liệu cá nhân trong các trường hợp quy định tại khoản 1 Điều 19 của Luật này.\n2. Việc chuyển giao dữ liệu cá nhân trong các trường hợp quy định tại khoản 1 Điều này có thu phí hoặc không thu phí thì không được xác định là mua, bán dữ liệu cá…",
+        "context_ids": [
+          "luat-bvdlcn-2025:p006:struct:000",
+          "luat-bvdlcn-2025:p011:struct:000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2446.2,
+    "error": null,
+    "cost_usd": null
+  }
+]

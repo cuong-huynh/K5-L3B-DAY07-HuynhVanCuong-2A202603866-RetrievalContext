@@ -1,9 +1,9 @@
-# Định dạng dữ liệu
+# Định dạng dữ liệu Day 7
 
-Các file `example_*.json` chỉ minh họa định dạng, không đủ để nộp bài. Dữ liệu thật là JSON array UTF-8; nếu dùng định dạng khác, ghi cách chuyển trong README.
+- **`chunks.json`**: array chunk `{id, text, source_id, source, page, metadata}` export từ Day 6 `law_chunks` strategy `B_struct` (320 chunk). Tái tạo: `python -m rag.export_chunks`.
+- **`questions_answerable.json`**: 20 câu có đáp án (gold evidence nằm trong chunk).
+- **`questions.json`**: 24 câu = 20 có đáp án + 4 thiếu evidence (`answerable: false`).
+- **`agent_cases.json`**: schema gọn cho runner agent.
+- File `example_*.json` chỉ minh họa; không đủ để nộp.
 
-- **Chunk:** `id`, `text`, `source_id`, `source`, `page`, `metadata`. ID phải duy nhất; giữ phiên bản hoặc ngày nếu có.
-- **Câu có đáp án:** `id`, `split` (`dev` hoặc `test`), `question`, `expected_answer`, `gold`: danh sách `{source_id, page, evidence}`. Với schema mẫu, mỗi evidence phải nằm trọn trong một chunk đúng nguồn và trang; các phần tử `gold` là evidence thay thế. Với câu multi-hop cần nhiều đoạn, bạn có thể mở rộng schema, ghi rõ nhóm evidence bắt buộc và cách chấm. Có thể thêm `filter` do người dùng cung cấp trước.
-- **Câu thiếu evidence:** `id`, `split`, `question`, `answerable: false`, `expected_behavior: "search_and_abstain"`, `absence_reason`. Xem `agent_cases_example.json`.
-
-Không đưa `gold` hoặc nhãn đáp án vào model và retrieval tool. Ghi nguồn dữ liệu và quyền sử dụng. Cách chuyển một số định dạng Day 6: [starter/README.md](../starter/README.md).
+Không đưa `gold` vào model/retriever khi chạy agent.

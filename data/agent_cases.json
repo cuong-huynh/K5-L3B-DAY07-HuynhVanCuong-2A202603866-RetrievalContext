@@ -1,0 +1,174 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Khi phát hiện vi phạm quy định về bảo vệ dữ liệu cá nhân có thể gây tổn hại đến an ninh quốc gia, bên kiểm soát dữ liệu cá nhân phải thông báo cho cơ quan chuyên trách trong thời hạn bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Mức phạt tiền tối đa đối với hành vi mua, bán dữ liệu cá nhân là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Một công ty đưa dữ liệu cá nhân ra nước ngoài trái quy định thì có thể bị phạt tối đa bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Nếu người vi phạm quy định bảo vệ dữ liệu cá nhân là cá nhân chứ không phải tổ chức thì mức phạt tiền tối đa được tính thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân phải gửi cho cơ quan chuyên trách trong thời gian bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Bao lâu thì phải làm mới hồ sơ đánh giá tác động khi có thay đổi?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Muốn công bố thông tin đời sống riêng tư của một trẻ em 8 tuổi thì cần sự đồng ý của ai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Chữ ký số có bảo đảm tính bí mật của thông điệp dữ liệu không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Giấy phép kinh doanh dịch vụ tin cậy có thời hạn bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Đơn vị cung cấp dịch vụ tin cậy phải duy trì kênh tiếp nhận thông tin hoạt động vào những khoảng thời gian nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Thông tin có bị mất giá trị pháp lý chỉ vì nó ở dạng thông điệp dữ liệu không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Cơ quan nhà nước phải dành tối thiểu bao nhiêu phần trăm kinh phí dự án chuyển đổi số cho bảo vệ an ninh mạng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Trong trường hợp khẩn cấp đe dọa an ninh quốc gia, doanh nghiệp phải ngăn chặn, xóa bỏ thông tin vi phạm trên không gian mạng trong thời hạn bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Luật có hiệu lực thi hành từ ngày nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Phạm vi điều chỉnh của luật là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Luật này áp dụng đối với những đối tượng nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Doanh nghiệp khởi nghiệp có được tạm không áp dụng một số quy định của Luật Bảo vệ dữ liệu cá nhân không, và trong bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Hệ thống thông tin đã được phân cấp độ theo Luật An toàn thông tin mạng cũ có phải xác định lại cấp độ không, và có bao lâu để đáp ứng yêu cầu mới?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Xác nhận đăng ký dịch vụ chứng thực hợp đồng điện tử trong thương mại đã cấp trước khi Luật Giao dịch điện tử 2023 có hiệu lực được tiếp tục sử dụng đến khi nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Luật này quy định về những nội dung gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "Theo Luật An ninh mạng, mức phạt hành chính tối đa bằng tiền Việt Nam Đồng cụ thể cho hành vi tấn công DDoS vào hệ thống thông tin quốc gia là bao nhiêu đồng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus chỉ có văn bản luật khung; không có mức phạt tiền cụ thể (VND) cho DDoS trong 3 PDF đã index."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "Luật Giao dịch điện tử quy định chữ ký số phải dùng thuật toán nào (RSA, ECDSA hay Ed25519) và độ dài khóa tối thiểu bao nhiêu bit?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Luật GĐĐT trong corpus không chỉ định thuật toán/khóa tối thiểu cho chữ ký số."
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "question": "Bên kiểm soát dữ liệu cá nhân phải lưu nhật ký truy cập hệ thống trong bao nhiêu năm theo phụ lục kỹ thuật kèm theo Luật Bảo vệ dữ liệu cá nhân?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có phụ lục kỹ thuật hay thời hạn lưu nhật ký truy cập trong PDF Luật BVDLCN đã index."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "Theo ba luật không gian số trong corpus, ứng dụng mạng xã hội nước ngoài muốn vào Việt Nam phải đặt máy chủ tại tỉnh/thành nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có quy định bắt buộc đặt máy chủ tại một tỉnh/thành cụ thể trong corpus."
+  }
+]

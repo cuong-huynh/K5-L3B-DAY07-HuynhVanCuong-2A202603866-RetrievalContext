@@ -1,0 +1,294 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Khi phát hiện vi phạm quy định về bảo vệ dữ liệu cá nhân có thể gây tổn hại đến an ninh quốc gia, bên kiểm soát dữ liệu cá nhân phải thông báo cho cơ quan chuyên trách trong thời hạn bao lâu?",
+    "expected_answer": "Chậm nhất là 72 giờ kể từ khi phát hiện hành vi vi phạm.",
+    "gold": [
+      {
+        "source_id": "luat-bvdlcn-2025",
+        "page": 15,
+        "evidence": "phải thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất là 72 giờ kể từ khi phát hiện hành vi vi phạm"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Mức phạt tiền tối đa đối với hành vi mua, bán dữ liệu cá nhân là bao nhiêu?",
+    "expected_answer": "10 lần khoản thu có được từ hành vi vi phạm (nếu không có khoản thu hoặc thấp hơn 03 tỷ đồng thì áp dụng mức 03 tỷ đồng).",
+    "gold": [
+      {
+        "source_id": "luat-bvdlcn-2025",
+        "page": 6,
+        "evidence": "Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Một công ty đưa dữ liệu cá nhân ra nước ngoài trái quy định thì có thể bị phạt tối đa bao nhiêu?",
+    "expected_answer": "5% doanh thu của năm trước liền kề của tổ chức đó.",
+    "gold": [
+      {
+        "source_id": "luat-bvdlcn-2025",
+        "page": 6,
+        "evidence": "vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Nếu người vi phạm quy định bảo vệ dữ liệu cá nhân là cá nhân chứ không phải tổ chức thì mức phạt tiền tối đa được tính thế nào?",
+    "expected_answer": "Bằng một phần hai mức phạt tiền tối đa đối với tổ chức.",
+    "gold": [
+      {
+        "source_id": "luat-bvdlcn-2025",
+        "page": 6,
+        "evidence": "cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền đối với tổ chức"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân phải gửi cho cơ quan chuyên trách trong thời gian bao lâu?",
+    "expected_answer": "Trong 60 ngày kể từ ngày đầu tiên xử lý dữ liệu cá nhân (gửi 01 bản chính).",
+    "gold": [
+      {
+        "source_id": "luat-bvdlcn-2025",
+        "page": 13,
+        "evidence": "gửi 01 bản chính cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong thời gian 60 ngày kể từ ngày đầu tiên xử lý dữ liệu cá nhân"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Bao lâu thì phải làm mới hồ sơ đánh giá tác động khi có thay đổi?",
+    "expected_answer": "Cập nhật định kỳ 06 tháng khi có sự thay đổi, hoặc cập nhật ngay trong các trường hợp luật quy định.",
+    "gold": [
+      {
+        "source_id": "luat-bvdlcn-2025",
+        "page": 14,
+        "evidence": "được cập nhật định kỳ 06 tháng khi có sự thay đổi hoặc cập nhật ngay trong các trường hợp quy định tại khoản 2 Điều này"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Muốn công bố thông tin đời sống riêng tư của một trẻ em 8 tuổi thì cần sự đồng ý của ai?",
+    "expected_answer": "Trẻ từ đủ 07 tuổi trở lên: cần sự đồng ý của cả trẻ em và người đại diện theo pháp luật.",
+    "gold": [
+      {
+        "source_id": "luat-bvdlcn-2025",
+        "page": 16,
+        "evidence": "trẻ em từ đủ 07 tuổi trở lên thì phải có sự đồng ý của trẻ em và người đại diện theo pháp luật"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Chữ ký số có bảo đảm tính bí mật của thông điệp dữ liệu không?",
+    "expected_answer": "Không. Chữ ký số bảo đảm tính xác thực, toàn vẹn và chống chối bỏ nhưng không bảo đảm tính bí mật.",
+    "gold": [
+      {
+        "source_id": "luat-gddt-2023",
+        "page": 2,
+        "evidence": "Chữ ký số bảo đảm tính xác thực, tính toàn vẹn và tính chống chối bỏ nhưng không bảo đảm tính bí mật của thông điệp dữ liệu."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Giấy phép kinh doanh dịch vụ tin cậy có thời hạn bao lâu?",
+    "expected_answer": "10 năm.",
+    "gold": [
+      {
+        "source_id": "luat-gddt-2023",
+        "page": 16,
+        "evidence": "Thời hạn của giấy phép kinh doanh dịch vụ tin cậy là 10 năm."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Đơn vị cung cấp dịch vụ tin cậy phải duy trì kênh tiếp nhận thông tin hoạt động vào những khoảng thời gian nào?",
+    "expected_answer": "Liên tục 24 giờ trong ngày và 07 ngày trong tuần.",
+    "gold": [
+      {
+        "source_id": "luat-gddt-2023",
+        "page": 17,
+        "evidence": "Bảo đảm kênh tiếp nhận thông tin và cung cấp dịch vụ liên tục 24 giờ trong ngày và 07 ngày trong tuần."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Thông tin có bị mất giá trị pháp lý chỉ vì nó ở dạng thông điệp dữ liệu không?",
+    "expected_answer": "Không, thông tin không bị phủ nhận giá trị pháp lý chỉ vì được thể hiện dưới dạng thông điệp dữ liệu.",
+    "gold": [
+      {
+        "source_id": "luat-gddt-2023",
+        "page": 4,
+        "evidence": "Thông tin trong thông điệp dữ liệu không bị phủ nhận giá trị pháp lý chỉ vì thông tin đó được thể hiện dưới dạng thông điệp dữ liệu."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Cơ quan nhà nước phải dành tối thiểu bao nhiêu phần trăm kinh phí dự án chuyển đổi số cho bảo vệ an ninh mạng?",
+    "expected_answer": "Tối thiểu 15% tổng kinh phí thực hiện chương trình, đề án, dự án đầu tư chuyển đổi số, ứng dụng công nghệ thông tin.",
+    "gold": [
+      {
+        "source_id": "luat-anm-2025",
+        "page": 30,
+        "evidence": "bố trí tối thiểu 15% tổng kinh phí thực hiện chương trình, đề án, dự án đầu tư chuyển đổi số, ứng dụng công nghệ thông tin để bảo vệ an ninh mạng"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Trong trường hợp khẩn cấp đe dọa an ninh quốc gia, doanh nghiệp phải ngăn chặn, xóa bỏ thông tin vi phạm trên không gian mạng trong thời hạn bao lâu?",
+    "expected_answer": "Chậm nhất là 06 giờ (thông thường là 24 giờ kể từ khi có yêu cầu).",
+    "gold": [
+      {
+        "source_id": "luat-anm-2025",
+        "page": 24,
+        "evidence": "trường hợp khẩn cấp đe dọa xâm hại an ninh quốc gia, yêu cầu ngăn chặn, xóa bỏ thông tin chậm nhất là 06 giờ"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Luật có hiệu lực thi hành từ ngày nào?",
+    "expected_answer": "Từ ngày 01 tháng 7 năm 2024.",
+    "gold": [
+      {
+        "source_id": "luat-gddt-2023",
+        "page": 29,
+        "evidence": "Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024."
+      }
+    ],
+    "answerable": true,
+    "filter": {
+      "document_id": "luat-gddt-2023"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Phạm vi điều chỉnh của luật là gì?",
+    "expected_answer": "Quy định về an ninh mạng, bảo vệ an ninh mạng; quyền, nghĩa vụ, trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.",
+    "gold": [
+      {
+        "source_id": "luat-anm-2025",
+        "page": 1,
+        "evidence": "Luật này quy định về an ninh mạng, bảo vệ an ninh mạng; quyền, nghĩa vụ, trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan."
+      }
+    ],
+    "answerable": true,
+    "filter": {
+      "document_id": "luat-anm-2025"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Luật này áp dụng đối với những đối tượng nào?",
+    "expected_answer": "Cơ quan, tổ chức, cá nhân trực tiếp tham gia giao dịch điện tử hoặc có liên quan đến giao dịch điện tử.",
+    "gold": [
+      {
+        "source_id": "luat-gddt-2023",
+        "page": 1,
+        "evidence": "Luật này áp dụng đối với cơ quan, tổ chức, cá nhân trực tiếp tham gia giao dịch điện tử hoặc có liên quan đến giao dịch điện tử."
+      }
+    ],
+    "answerable": true,
+    "filter": {
+      "document_id": "luat-gddt-2023"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Doanh nghiệp khởi nghiệp có được tạm không áp dụng một số quy định của Luật Bảo vệ dữ liệu cá nhân không, và trong bao lâu?",
+    "expected_answer": "Có. Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp được lựa chọn thực hiện hoặc không thực hiện Điều 21, Điều 22 và khoản 2 Điều 33 trong 05 năm kể từ ngày luật có hiệu lực, trừ các trường hợp luật loại trừ.",
+    "gold": [
+      {
+        "source_id": "luat-bvdlcn-2025",
+        "page": 24,
+        "evidence": "Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp được quyền lựa chọn thực hiện hoặc không thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này trong thời gian 05 năm kể từ ngày Luật này có hiệu lực thi hành"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Hệ thống thông tin đã được phân cấp độ theo Luật An toàn thông tin mạng cũ có phải xác định lại cấp độ không, và có bao lâu để đáp ứng yêu cầu mới?",
+    "expected_answer": "Không phải xác định lại, tiếp tục giữ cấp độ; trong 12 tháng kể từ ngày Luật An ninh mạng 2025 có hiệu lực phải bảo đảm điều kiện, tiêu chuẩn, biện pháp tương ứng.",
+    "gold": [
+      {
+        "source_id": "luat-anm-2025",
+        "page": 36,
+        "evidence": "thì tiếp tục giữ cấp độ đã được xác định kể từ ngày Luật này có hiệu lực thi hành; trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực thi hành"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Xác nhận đăng ký dịch vụ chứng thực hợp đồng điện tử trong thương mại đã cấp trước khi Luật Giao dịch điện tử 2023 có hiệu lực được tiếp tục sử dụng đến khi nào?",
+    "expected_answer": "Đến hết ngày 30 tháng 6 năm 2027.",
+    "gold": [
+      {
+        "source_id": "luat-gddt-2023",
+        "page": 30,
+        "evidence": "được tiếp tục sử dụng đến hết ngày 30 tháng 6 năm 2027"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Luật này quy định về những nội dung gì?",
+    "expected_answer": "Quy định về dữ liệu cá nhân, bảo vệ dữ liệu cá nhân và quyền, nghĩa vụ, trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.",
+    "gold": [
+      {
+        "source_id": "luat-bvdlcn-2025",
+        "page": 1,
+        "evidence": "Luật này quy định về dữ liệu cá nhân, bảo vệ dữ liệu cá nhân và quyền, nghĩa vụ, trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan."
+      }
+    ],
+    "answerable": true,
+    "filter": {
+      "document_id": "luat-bvdlcn-2025"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "method": "dense",
+  "n": 15,
+  "hit_at_1": "14/15",
+  "hit_at_1_rate": 0.9333,
+  "evidence_hit_at_3": "15/15",
+  "evidence_hit_at_3_rate": 1.0,
+  "context_evidence_rate": "6/15",
+  "context_evidence_rate_num": 0.4,
+  "mean_latency_ms": 34.47,
+  "top_k": 3,
+  "budget_chars": 800,
+  "use_question_filter": true,
+  "cost_usd": 0
+}

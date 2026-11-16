@@ -1,0 +1,47 @@
+[
+  {
+    "method": "dense",
+    "n": 5,
+    "hit_at_1": "3/5",
+    "hit_at_1_rate": 0.6,
+    "evidence_hit_at_3": "4/5",
+    "evidence_hit_at_3_rate": 0.8,
+    "context_evidence_rate": "3/5",
+    "context_evidence_rate_num": 0.6,
+    "mean_latency_ms": 28.77,
+    "top_k": 3,
+    "budget_chars": 800,
+    "use_question_filter": true,
+    "cost_usd": 0
+  },
+  {
+    "method": "lexical",
+    "n": 5,
+    "hit_at_1": "1/5",
+    "hit_at_1_rate": 0.2,
+    "evidence_hit_at_3": "3/5",
+    "evidence_hit_at_3_rate": 0.6,
+    "context_evidence_rate": "1/5",
+    "context_evidence_rate_num": 0.2,
+    "mean_latency_ms": 0.74,
+    "top_k": 3,
+    "budget_chars": 800,
+    "use_question_filter": true,
+    "cost_usd": 0
+  },
+  {
+    "method": "hybrid",
+    "n": 5,
+    "hit_at_1": "3/5",
+    "hit_at_1_rate": 0.6,
+    "evidence_hit_at_3": "4/5",
+    "evidence_hit_at_3_rate": 0.8,
+    "context_evidence_rate": "3/5",
+    "context_evidence_rate_num": 0.6,
+    "mean_latency_ms": 25.17,
+    "top_k": 3,
+    "budget_chars": 800,
+    "use_question_filter": true,
+    "cost_usd": 0
+  }
+]

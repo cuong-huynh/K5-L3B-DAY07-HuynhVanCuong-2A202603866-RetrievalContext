@@ -1,33 +1,99 @@
-# Day 7 — Agentic RAG
+# Day 7 — Agentic RAG (L3B)
 
-**Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
+**Huỳnh Văn Cường · 2A202603866 · cá nhân · Python 3.11+ · tiếp nối Day 6**
 
-Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
+Repo nộp: https://github.com/cuong-huynh/K5-L3B-DAY07-HuynhVanCuong-2A202603866-RetrievalContext
 
-> **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
+Dùng embedding + pgvector Day 6 để so sánh **dense / lexical TF-IDF / hybrid RRF**, rồi chạy agent Gemini có citation và abstain.
 
-## Bài cần làm
+## Cấu hình đã chốt
 
-![Agent tìm tài liệu trong kho Day 6 và trả lời có nguồn](assets/retrieval-pipeline.svg)
+- Retrieval + agent: **dense** (`B_struct` index) · `top_k=5` · context budget **2000** · max 3 searches  
+- Embedding: `intfloat/multilingual-e5-small` (384-d)  
+- LLM: `gemini-3.5-flash-lite`  
+- Báo cáo: [`report/individual/2A202603866_HuynhVanCuong.md`](report/individual/2A202603866_HuynhVanCuong.md)
 
-1. Kết nối dữ liệu, embedding và vector store Day 6.
-2. Xây agent dùng model thật và ít nhất một khả năng truy xuất dữ liệu. Agent có thể dùng nhiều tool và nhiều lượt gọi.
-3. Thử **ít nhất 3 phương pháp retrieval khác nhau**, trong đó có dense retrieval dùng vector store Day 6. Tự chọn các phương pháp còn lại; xem [gợi ý](GUIDE.md#2-thử-các-phương-pháp-retrieval).
-4. Thử nhiều cấu hình, benchmark, phân tích lỗi và chọn cấu hình tốt trên **dev**; sau đó đánh giá trên **test**.
+## Chuẩn bị
 
-Benchmark tối thiểu có **24 câu**: dev gồm 15 câu có đáp án và 2 câu thiếu bằng chứng; test gồm 5 câu có đáp án và 2 câu thiếu bằng chứng. Xem [benchmark](BENCHMARK.md) và [rubric](RUBRIC.md).
+1. Bật Postgres Day 6 (từ thư mục starter Day 6):
 
-## Thử thách nâng cao · +15 điểm
+```bash
+cd <DAY6_STARTER>
+docker compose up -d
+# nếu DB trống: python -m src.run   # dùng .venv Day 6
+```
 
-Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và biểu đồ; xây agent truy xuất và trả lời các câu hỏi về nội dung đó. Hoàn thành [thử thách nâng cao](ADVANCED.md) và đạt **ít nhất 90% benchmark test** để nhận 15 điểm bonus. Phần cơ bản tối đa 85 điểm; toàn bài tối đa 100 điểm.
+2. Trong repo Day 7:
 
-## Bắt đầu
+```bash
+cp .env.example .env
+# Điền DATABASE_URL, GEMINI_API_KEY, DAY6_STARTER
+```
 
-1. Đọc [hướng dẫn](GUIDE.md), [rubric](RUBRIC.md) và [quy tắc](RULES.md).
-2. Tạo repo cá nhân theo [cách nộp bài](SUBMISSION.md), chuẩn bị đầu ra Day 6 và model hỗ trợ tool calling.
-3. Dùng hoặc thay thế [starter](starter/README.md); bạn cần kết nối model và vector store thật.
-4. Chạy `python -m unittest discover -s tests -v`. Test mock chỉ kiểm tra code, không phải benchmark agent thật.
+Có thể dùng chung `.venv` Day 6 (đã có `sentence-transformers`, `psycopg`, `google-genai`) hoặc:
 
-![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
-Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+3. Unit test khung (mock, không cần API/DB):
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+## Dữ liệu
+
+| File | Nội dung |
+|---|---|
+| [`data/chunks.json`](data/chunks.json) | 320 chunk export từ `law_chunks` strategy `B_struct` |
+| [`data/questions_answerable.json`](data/questions_answerable.json) | 20 câu có đáp án (15 dev / 5 test) |
+| [`data/questions.json`](data/questions.json) | 24 câu = 20 + 4 thiếu evidence |
+| [`data/agent_cases.json`](data/agent_cases.json) | case cho agent (answerable flag) |
+
+Tái tạo chunks từ DB:
+
+```bash
+# xem script one-liner trong lịch sử lab / export lại SELECT từ law_chunks
+```
+
+## Chạy benchmark retrieval
+
+```bash
+python -m rag.run_retrieval_bench --split dev --methods dense lexical hybrid
+python -m rag.run_retrieval_bench --split test --methods dense lexical hybrid
+# cải thiện
+python -m rag.run_retrieval_bench --split dev --methods dense hybrid --top-k 5 --budget 2000 \
+  --output starter/results/retrieval-dev-improve-k5-b2000
+```
+
+## Chạy agent
+
+```bash
+python -m rag.run_agent --split dev --retriever dense --top-k 5 --budget 2000 --sleep 5 \
+  --tag locked-dense-k5-b2000
+# nếu 429:
+python -m rag.resume_agent --dir starter/results/agent-dev-locked-dense-k5-b2000 --sleep 5
+```
+
+Chấm và tổng hợp:
+
+```bash
+python -m rag.build_reviews --dir starter/results/agent-test-locked-dense-k5-b2000
+python starter/agent_metrics.py \
+  --cases starter/results/agent-test-locked-dense-k5-b2000/cases.json \
+  --traces starter/results/agent-test-locked-dense-k5-b2000/metric_traces.json \
+  --reviews starter/results/agent-test-locked-dense-k5-b2000/reviews.json \
+  --split test \
+  --output starter/results/agent-test-locked-dense-k5-b2000/summary.json
+```
+
+Kết quả mẫu đã chạy nằm ở `starter/results/` (có thể `git add -f` các file summary/traces được phép chia sẻ).
+
+## Lưu ý
+
+- Không commit `.env` / API key.  
+- Không đưa `gold` vào agent.  
+- Starter `agentic.py` vẫn dùng cho unittest; runtime thật dùng `rag/agent_runtime.py` (truncate-to-fit) vì chunk luật thường >800 ký tự.

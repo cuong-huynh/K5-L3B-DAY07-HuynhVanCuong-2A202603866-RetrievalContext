@@ -1,0 +1,1346 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Khi phát hiện vi phạm quy định về bảo vệ dữ liệu cá nhân có thể gây tổn hại đến an ninh quốc gia, bên kiểm soát dữ liệu cá nhân phải thông báo cho cơ quan chuyên trách trong thời hạn bao lâu?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 27.18,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-bvdlcn-2025:p015:struct:000",
+        "text": "Điều 23. Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân\n1. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên thứ ba phát hiện vi phạm quy định về bảo vệ dữ liệu cá nhân có thể gây tổn hại đến quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội hoặc xâm phạm đến tính mạng, sức khỏe, danh dự, nhân phẩm, tài sản của chủ thể dữ liệu cá nhân thì phải thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất là 72 giờ kể từ khi phát hiện hành vi vi phạm. Trường hợp bên xử lý dữ liệu cá nhân phát hiện hành vi vi phạm phải thông báo kịp thời cho bên kiểm soát dữ liệu cá nhân hoặc bên kiểm soát và xử lý dữ liệu cá nhân.\n2. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải lập biên bản xác nhận về việc xảy ra hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân, phối hợp với cơ quan chuyên trách bảo vệ dữ liệu cá nhân xử lý hành vi vi phạm.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 15,
+        "metadata": {
+          "articles": [
+            23
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 27,
+          "article_title": "Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 23,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-bvdlcn-2025:p015:struct:001",
+        "text": "3. Cơ quan, tổ chức, cá nhân thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong các trường hợp sau đây:\na) Phát hiện hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân;\nb) Dữ liệu cá nhân bị xử lý sai mục đích, không đúng thỏa thuận giữa chủ thể dữ liệu cá nhân với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân;\nc) Không bảo đảm quyền hoặc thực hiện không đúng quyền của chủ thể dữ liệu cá nhân;\nd) Trường hợp khác theo quy định của pháp luật.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân có trách nhiệm tiếp nhận thông báo, xử lý hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên thứ ba và cơ quan, tổ chức, cá nhân có liên quan có trách nhiệm ngăn chặn hành vi vi phạm, khắc phục hậu quả xảy ra và phối hợp cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong xử lý hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 15,
+        "metadata": {
+          "articles": [
+            23
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 27,
+          "article_title": "Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 23,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.032258,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-bvdlcn-2025:p004:struct:000",
+        "text": "b) Không được gây khó khăn, cản trở việc thực hiện quyền, nghĩa vụ pháp lý của bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân;\nc) Không được xâm phạm đến quyền, lợi ích hợp pháp của Nhà nước, cơ quan, tổ chức, cá nhân khác.\n4. Cơ quan, tổ chức, cá nhân có trách nhiệm tạo điều kiện thuận lợi, không được gây khó khăn, cản trở việc thực hiện quyền và nghĩa vụ của chủ thể dữ liệu cá nhân theo quy định của pháp luật.\n5. Khi nhận được yêu cầu của chủ thể dữ liệu cá nhân để thực hiện quyền của chủ thể dữ liệu cá nhân quy định tại khoản 1 Điều này, bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải kịp thời thực hiện trong thời hạn theo quy định của pháp luật. Chính phủ quy định chi tiết khoản này.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 4,
+        "metadata": {
+          "articles": [
+            4
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 16,
+          "article_title": "Quyền và nghĩa vụ của chủ thể dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 4,
+          "chapter": "I",
+          "year": 2025
+        },
+        "score": 0.03055,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-bvdlcn-2025:p015:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 15]\nĐiều 23. Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân\n1. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên thứ ba phát hiện vi phạm quy định về bảo vệ dữ liệu cá nhân có thể gây tổn hại đến quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội hoặc xâm phạm đến tính mạng, sức khỏe, danh dự, nhân phẩm, tài sản của chủ thể dữ liệu cá nhân thì phải thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất là 72 giờ kể từ khi phát hiện hành vi vi phạm. Trường hợp bên xử lý dữ liệu cá nhân phát hiện hành vi vi phạm phải thông báo kịp thời cho bên kiểm soát dữ liệu cá nhân hoặc bên kiểm soát và xử lý dữ liệu cá nhân.\n2. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải lập biên bản xác nhận về việc xảy ra hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân, phối hợp với cơ quan chuyên trách bảo vệ dữ liệu cá nhân xử lý hành vi vi phạm.\n\n[luat-bvdlcn-2025:p004:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 4]\nb) Không được gây khó khăn, cản trở việc thực hiện quyền, nghĩa vụ pháp lý của bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân;\nc) Không được xâm phạm đến quyền, lợi ích hợp pháp của Nhà nước, cơ quan, tổ chức, cá nhân khác.\n4. Cơ quan, tổ chức, cá nhân có trách nhiệm tạo điều kiện thuận lợi, không được gây khó khăn, cản trở việc thực hiện quyền và nghĩa vụ của chủ thể dữ liệu cá nhân theo quy định của pháp luật.\n5. Khi nhận được yêu cầu của chủ thể dữ liệu cá nhân để thực hiện quyền của chủ thể dữ liệu cá nhân quy định tại khoản 1 Điều này, bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải kịp thời thực hiện trong thời hạn theo quy định của pháp luật. Chính phủ quy định chi tiết khoản này.",
+    "context_ids": [
+      "luat-bvdlcn-2025:p015:struct:000",
+      "luat-bvdlcn-2025:p004:struct:000"
+    ]
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Mức phạt tiền tối đa đối với hành vi mua, bán dữ liệu cá nhân là bao nhiêu?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 24.78,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-bvdlcn-2025:p006:struct:000",
+        "text": "3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 6,
+        "metadata": {
+          "articles": [
+            8
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 18,
+          "article_title": "Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 8,
+          "chapter": "I",
+          "year": 2025
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-bvdlcn-2025:p006:struct:001",
+        "text": "6. Mức phạt tiền tối đa quy định tại các khoản 3, 4 và 5 Điều này được áp dụng đối với tổ chức; cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền đối với tổ chức.\n7. Chính phủ quy định phương pháp tính khoản thu có được từ việc thực hiện hành vi vi phạm pháp luật về bảo vệ dữ liệu cá nhân.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 6,
+        "metadata": {
+          "articles": [
+            8
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 18,
+          "article_title": "Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 8,
+          "chapter": "I",
+          "year": 2025
+        },
+        "score": 0.032258,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-bvdlcn-2025:p005:struct:001",
+        "text": "Điều 7. Hành vi bị nghiêm cấm\n1. Xử lý dữ liệu cá nhân nhằm chống lại Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, gây ảnh hưởng đến quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, quyền, lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n2. Cản trở hoạt động bảo vệ dữ liệu cá nhân.\n3. Lợi dụng hoạt động bảo vệ dữ liệu cá nhân để thực hiện hành vi vi phạm pháp luật.\n4. Xử lý dữ liệu cá nhân trái quy định của pháp luật.\n5. Sử dụng dữ liệu cá nhân của người khác, cho người khác sử dụng dữ liệu cá nhân của mình để thực hiện hành vi trái quy định của pháp luật.\n6. Mua, bán dữ liệu cá nhân, trừ trường hợp luật có quy định khác.\n7. Chiếm đoạt, cố ý làm lộ, làm mất dữ liệu cá nhân.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 5,
+        "metadata": {
+          "articles": [
+            7
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 17,
+          "article_title": "Hành vi bị nghiêm cấm",
+          "effective_date": "2026-01-01",
+          "article": 7,
+          "chapter": "I",
+          "year": 2025
+        },
+        "score": 0.031498,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-bvdlcn-2025:p006:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 6]\n3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.\n\n[luat-bvdlcn-2025:p006:struct:001 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 6]\n6. Mức phạt tiền tối đa quy định tại các khoản 3, 4 và 5 Điều này được áp dụng đối với tổ chức; cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền đối với tổ chức.\n7. Chính phủ quy định phương pháp tính khoản thu có được từ việc thực hiện hành vi vi phạm pháp luật về bảo vệ dữ liệu cá nhân.",
+    "context_ids": [
+      "luat-bvdlcn-2025:p006:struct:000",
+      "luat-bvdlcn-2025:p006:struct:001"
+    ]
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Một công ty đưa dữ liệu cá nhân ra nước ngoài trái quy định thì có thể bị phạt tối đa bao nhiêu?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 24.82,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-bvdlcn-2025:p006:struct:000",
+        "text": "3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 6,
+        "metadata": {
+          "articles": [
+            8
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 18,
+          "article_title": "Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 8,
+          "chapter": "I",
+          "year": 2025
+        },
+        "score": 0.032522,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-bvdlcn-2025:p006:struct:001",
+        "text": "6. Mức phạt tiền tối đa quy định tại các khoản 3, 4 và 5 Điều này được áp dụng đối với tổ chức; cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền đối với tổ chức.\n7. Chính phủ quy định phương pháp tính khoản thu có được từ việc thực hiện hành vi vi phạm pháp luật về bảo vệ dữ liệu cá nhân.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 6,
+        "metadata": {
+          "articles": [
+            8
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 18,
+          "article_title": "Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 8,
+          "chapter": "I",
+          "year": 2025
+        },
+        "score": 0.030478,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-bvdlcn-2025:p024:struct:000",
+        "text": "h) Ngăn chặn hoạt động thu thập dữ liệu cá nhân trái phép từ hệ thống, trang thiết bị, dịch vụ của mình;\ni) Phối hợp với Bộ Công an, cơ quan nhà nước có thẩm quyền trong bảo vệ dữ liệu cá nhân, cung cấp thông tin phục vụ điều tra, xử lý hành vi vi phạm pháp luật về bảo vệ dữ liệu cá nhân;\nk) Thực hiện các trách nhiệm khác theo quy định của Luật này và quy định khác của pháp luật có liên quan.\n2. Trách nhiệm của bên xử lý dữ liệu cá nhân như sau:\na) Chỉ được tiếp nhận dữ liệu cá nhân sau khi có thỏa thuận, hợp đồng về xử lý dữ liệu cá nhân với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân;\nb) Xử lý dữ liệu cá nhân theo đúng thỏa thuận, hợp đồng ký kết với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân;\nc) Thực hiện đầy đủ các biện pháp bảo vệ dữ liệu cá nhân theo quy định của Luật này và các quy định khác của pháp luật có liên quan;",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 24,
+        "metadata": {
+          "articles": [
+            37
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 36,
+          "article_title": "Trách nhiệm của bên kiểm soát dữ liệu cá nhân, bên xử lý dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 37,
+          "chapter": "IV",
+          "year": 2025
+        },
+        "score": 0.030366,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-bvdlcn-2025:p006:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 6]\n3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.\n\n[luat-bvdlcn-2025:p006:struct:001 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 6]\n6. Mức phạt tiền tối đa quy định tại các khoản 3, 4 và 5 Điều này được áp dụng đối với tổ chức; cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền đối với tổ chức.\n7. Chính phủ quy định phương pháp tính khoản thu có được từ việc thực hiện hành vi vi phạm pháp luật về bảo vệ dữ liệu cá nhân.",
+    "context_ids": [
+      "luat-bvdlcn-2025:p006:struct:000",
+      "luat-bvdlcn-2025:p006:struct:001"
+    ]
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Nếu người vi phạm quy định bảo vệ dữ liệu cá nhân là cá nhân chứ không phải tổ chức thì mức phạt tiền tối đa được tính thế nào?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 26.54,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-bvdlcn-2025:p006:struct:001",
+        "text": "6. Mức phạt tiền tối đa quy định tại các khoản 3, 4 và 5 Điều này được áp dụng đối với tổ chức; cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền đối với tổ chức.\n7. Chính phủ quy định phương pháp tính khoản thu có được từ việc thực hiện hành vi vi phạm pháp luật về bảo vệ dữ liệu cá nhân.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 6,
+        "metadata": {
+          "articles": [
+            8
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 18,
+          "article_title": "Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 8,
+          "chapter": "I",
+          "year": 2025
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-bvdlcn-2025:p006:struct:000",
+        "text": "3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 6,
+        "metadata": {
+          "articles": [
+            8
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 18,
+          "article_title": "Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 8,
+          "chapter": "I",
+          "year": 2025
+        },
+        "score": 0.032258,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-bvdlcn-2025:p005:struct:002",
+        "text": "Điều 8. Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân\n1. Tổ chức, cá nhân có hành vi vi phạm quy định của Luật này và quy định khác của pháp luật có liên quan đến bảo vệ dữ liệu cá nhân thì tùy theo tính chất, mức độ, hậu quả của hành vi vi phạm có thể bị xử phạt hành chính hoặc bị truy cứu trách nhiệm hình sự; nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.\n2. Việc xử phạt vi phạm hành chính trong lĩnh vực bảo vệ dữ liệu cá nhân thực hiện theo quy định tại các khoản 3, 4, 5, 6 và 7 Điều này và pháp luật về xử lý vi phạm hành chính.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 5,
+        "metadata": {
+          "articles": [
+            8
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 17,
+          "article_title": "Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 8,
+          "chapter": "I",
+          "year": 2025
+        },
+        "score": 0.031746,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-bvdlcn-2025:p006:struct:001 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 6]\n6. Mức phạt tiền tối đa quy định tại các khoản 3, 4 và 5 Điều này được áp dụng đối với tổ chức; cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền đối với tổ chức.\n7. Chính phủ quy định phương pháp tính khoản thu có được từ việc thực hiện hành vi vi phạm pháp luật về bảo vệ dữ liệu cá nhân.\n\n[luat-bvdlcn-2025:p006:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 6]\n3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.",
+    "context_ids": [
+      "luat-bvdlcn-2025:p006:struct:001",
+      "luat-bvdlcn-2025:p006:struct:000"
+    ]
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân phải gửi cho cơ quan chuyên trách trong thời gian bao lâu?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 24.67,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-bvdlcn-2025:p013:struct:002",
+        "text": "Điều 21. Đánh giá tác động xử lý dữ liệu cá nhân\n1. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân lập, lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và gửi 01 bản chính cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong thời gian 60 ngày kể từ ngày đầu tiên xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.\n2. Đánh giá tác động xử lý dữ liệu cá nhân được thực hiện 01 lần cho suốt thời gian hoạt động của bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân và được cập nhật theo quy định tại Điều 22 của Luật này.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 13,
+        "metadata": {
+          "articles": [
+            21
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 25,
+          "article_title": "Đánh giá tác động xử lý dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 21,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.032018,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-bvdlcn-2025:p014:struct:000",
+        "text": "3. Bên xử lý dữ liệu cá nhân lập và lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân theo thỏa thuận với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân đánh giá, yêu cầu bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân hoàn thiện hồ sơ đánh giá tác động xử lý dữ liệu cá nhân trong trường hợp hồ sơ chưa đầy đủ và đúng quy định.\n5. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân cập nhật, bổ sung hồ sơ đánh giá tác động xử lý dữ liệu cá nhân khi có sự thay đổi về nội dung hồ sơ đã gửi cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân.\n6. Cơ quan nhà nước có thẩm quyền không phải thực hiện quy định về đánh giá tác động xử lý dữ liệu cá nhân quy định tại Điều này.\n7. Chính phủ quy định thành phần hồ sơ, điều kiện, trình tự, thủ tục đánh giá tác động xử lý dữ liệu cá nhân.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 14,
+        "metadata": {
+          "articles": [
+            21
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 26,
+          "article_title": "Đánh giá tác động xử lý dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 21,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.031545,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-bvdlcn-2025:p014:struct:002",
+        "text": "3. Việc cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được thực hiện trên Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân hoặc tại cơ quan chuyên trách bảo vệ dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết Điều này.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 14,
+        "metadata": {
+          "articles": [
+            22
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 26,
+          "article_title": "Cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới",
+          "effective_date": "2026-01-01",
+          "article": 22,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.031514,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-bvdlcn-2025:p013:struct:002 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 13]\nĐiều 21. Đánh giá tác động xử lý dữ liệu cá nhân\n1. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân lập, lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và gửi 01 bản chính cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong thời gian 60 ngày kể từ ngày đầu tiên xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.\n2. Đánh giá tác động xử lý dữ liệu cá nhân được thực hiện 01 lần cho suốt thời gian hoạt động của bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân và được cập nhật theo quy định tại Điều 22 của Luật này.\n\n[luat-bvdlcn-2025:p014:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 14]\n3. Bên xử lý dữ liệu cá nhân lập và lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân theo thỏa thuận với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân đánh giá, yêu cầu bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân hoàn thiện hồ sơ đánh giá tác động xử lý dữ liệu cá nhân trong trường hợp hồ sơ chưa đầy đủ và đúng quy định.\n5. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân cập nhật, bổ sung hồ sơ đánh giá tác động xử lý dữ liệu cá nhân khi có sự thay đổi về nội dung hồ sơ đã gửi cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân.\n6. Cơ quan nhà nước có thẩm quyền không phải thực hiện quy định về đánh giá tác động xử lý dữ liệu cá nhân quy định tại Điều này.\n7. Chính phủ quy định thành phần hồ sơ, điều kiện, trình tự, thủ tục đánh giá tác động xử lý dữ liệu cá nhân.",
+    "context_ids": [
+      "luat-bvdlcn-2025:p013:struct:002",
+      "luat-bvdlcn-2025:p014:struct:000"
+    ]
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Bao lâu thì phải làm mới hồ sơ đánh giá tác động khi có thay đổi?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 26.42,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-bvdlcn-2025:p014:struct:001",
+        "text": "Điều 22. Cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới\n1. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được cập nhật định kỳ 06 tháng khi có sự thay đổi hoặc cập nhật ngay trong các trường hợp quy định tại khoản 2 Điều này.\n2. Các trường hợp thay đổi cần cập nhật ngay bao gồm:\na) Khi cơ quan, tổ chức, đơn vị được tổ chức lại, chấm dứt hoạt động, giải thể, phá sản theo quy định của pháp luật;\nb) Khi có sự thay đổi thông tin về tổ chức, cá nhân cung cấp dịch vụ bảo vệ dữ liệu cá nhân;\nc) Khi phát sinh hoặc thay đổi ngành, nghề, dịch vụ kinh doanh liên quan đến xử lý dữ liệu cá nhân đã đăng ký trong hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 14,
+        "metadata": {
+          "articles": [
+            22
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 26,
+          "article_title": "Cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới",
+          "effective_date": "2026-01-01",
+          "article": 22,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-bvdlcn-2025:p025:struct:002",
+        "text": "2. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo quy định của Nghị định số 13/2023/ NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ đã được cơ quan chuyên trách bảo vệ dữ liệu cá nhân tiếp nhận trước ngày Luật này có hiệu lực thi hành thì tiếp tục được sử dụng và không phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này; việc cập nhật các hồ sơ đã lập nêu trên sau ngày Luật này có hiệu lực thi hành thì thực hiện theo quy định của Luật này./. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 9 thông qua ngày 26 tháng 6 năm 2025.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 25,
+        "metadata": {
+          "articles": [
+            39
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 37,
+          "article_title": "Quy định chuyển tiếp",
+          "effective_date": "2026-01-01",
+          "article": 39,
+          "chapter": "V",
+          "year": 2025
+        },
+        "score": 0.032258,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-bvdlcn-2025:p014:struct:000",
+        "text": "3. Bên xử lý dữ liệu cá nhân lập và lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân theo thỏa thuận với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân đánh giá, yêu cầu bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân hoàn thiện hồ sơ đánh giá tác động xử lý dữ liệu cá nhân trong trường hợp hồ sơ chưa đầy đủ và đúng quy định.\n5. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân cập nhật, bổ sung hồ sơ đánh giá tác động xử lý dữ liệu cá nhân khi có sự thay đổi về nội dung hồ sơ đã gửi cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân.\n6. Cơ quan nhà nước có thẩm quyền không phải thực hiện quy định về đánh giá tác động xử lý dữ liệu cá nhân quy định tại Điều này.\n7. Chính phủ quy định thành phần hồ sơ, điều kiện, trình tự, thủ tục đánh giá tác động xử lý dữ liệu cá nhân.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 14,
+        "metadata": {
+          "articles": [
+            21
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 26,
+          "article_title": "Đánh giá tác động xử lý dữ liệu cá nhân",
+          "effective_date": "2026-01-01",
+          "article": 21,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.031498,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-bvdlcn-2025:p014:struct:001 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 14]\nĐiều 22. Cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới\n1. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được cập nhật định kỳ 06 tháng khi có sự thay đổi hoặc cập nhật ngay trong các trường hợp quy định tại khoản 2 Điều này.\n2. Các trường hợp thay đổi cần cập nhật ngay bao gồm:\na) Khi cơ quan, tổ chức, đơn vị được tổ chức lại, chấm dứt hoạt động, giải thể, phá sản theo quy định của pháp luật;\nb) Khi có sự thay đổi thông tin về tổ chức, cá nhân cung cấp dịch vụ bảo vệ dữ liệu cá nhân;\nc) Khi phát sinh hoặc thay đổi ngành, nghề, dịch vụ kinh doanh liên quan đến xử lý dữ liệu cá nhân đã đăng ký trong hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới.\n\n[luat-bvdlcn-2025:p025:struct:002 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 25]\n2. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo quy định của Nghị định số 13/2023/ NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ đã được cơ quan chuyên trách bảo vệ dữ liệu cá nhân tiếp nhận trước ngày Luật này có hiệu lực thi hành thì tiếp tục được sử dụng và không phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này; việc cập nhật các hồ sơ đã lập nêu trên sau ngày Luật này có hiệu lực thi hành thì thực hiện theo quy định của Luật này./. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 9 thông qua ngày 26 tháng 6 năm 2025.",
+    "context_ids": [
+      "luat-bvdlcn-2025:p014:struct:001",
+      "luat-bvdlcn-2025:p025:struct:002"
+    ]
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Muốn công bố thông tin đời sống riêng tư của một trẻ em 8 tuổi thì cần sự đồng ý của ai?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 25.26,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-bvdlcn-2025:p016:struct:000",
+        "text": "1. Bảo vệ dữ liệu cá nhân của trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi thực hiện theo quy định của Luật này.\n2. Đối với trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự hoặc người có khó khăn trong nhận thức, làm chủ hành vi thì người đại diện theo pháp luật thay mặt thực hiện các quyền của chủ thể dữ liệu cá nhân, trừ các trường hợp quy định tại khoản 1 Điều 19 của Luật này. Việc xử lý dữ liệu cá nhân của trẻ em nhằm công bố, tiết lộ thông tin về đời sống riêng tư, bí mật cá nhân của trẻ em từ đủ 07 tuổi trở lên thì phải có sự đồng ý của trẻ em và người đại diện theo pháp luật.\n3. Ngừng xử lý dữ liệu cá nhân của trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi trong trường hợp sau đây:",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 16,
+        "metadata": {
+          "articles": [
+            24
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 28,
+          "article_title": "Bảo vệ dữ liệu cá nhân của trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi",
+          "effective_date": "2026-01-01",
+          "article": 24,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-anm-2025:p017:struct:002",
+        "text": "Điều 16. Phòng, chống xâm hại trẻ em trên không gian mạng\n1. Trẻ em có quyền được tiếp cận thông tin, tham gia hoạt động xã hội, vui chơi, giải trí, bảo vệ bí mật cá nhân, đời sống riêng tư và các quyền khác trên không gian mạng theo quy định của pháp luật.\n2. Trẻ em sử dụng dịch vụ giá trị gia tăng trên không gian mạng thì cha, mẹ hoặc người giám hộ theo quy định của pháp luật về dân sự đăng ký tài khoản bằng thông tin của cha, mẹ hoặc người giám hộ và có trách nhiệm giám sát, quản lý nội dung trẻ em truy cập, đăng tải và chia sẻ thông tin trên các nền tảng dịch vụ đó.\n3. Chủ quản hệ thống thông tin, doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ giá trị gia tăng trên không gian mạng có các trách nhiệm sau đây:\na) Kiểm soát nội dung thông tin trên hệ thống thông tin hoặc trên dịch vụ do doanh nghiệp cung cấp để không gây nguy hại cho trẻ em hoặc xâm hại trẻ em hoặc xâm phạm quyền trẻ em;",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 17,
+        "metadata": {
+          "articles": [
+            16
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 20,
+          "article_title": "Phòng, chống xâm hại trẻ em trên không gian mạng",
+          "effective_date": "2026-07-01",
+          "article": 16,
+          "chapter": "III",
+          "year": 2025
+        },
+        "score": 0.031754,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-bvdlcn-2025:p016:struct:001",
+        "text": "a) Người đã đồng ý quy định tại khoản 2 Điều này rút lại sự đồng ý cho phép xử lý dữ liệu cá nhân của trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi, trừ trường hợp pháp luật có quy định khác;\nb) Theo yêu cầu của cơ quan có thẩm quyền khi có đủ căn cứ chứng minh việc xử lý dữ liệu cá nhân có thể xâm phạm đến quyền, lợi ích hợp pháp của trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi, trừ trường hợp pháp luật có quy định khác.",
+        "source_id": "luat-bvdlcn-2025",
+        "source": "data/raw/luat-91-2025-qh15-bvdlcn.pdf",
+        "page": 16,
+        "metadata": {
+          "articles": [
+            24
+          ],
+          "law_title": "Luật Bảo vệ dữ liệu cá nhân",
+          "law_number": "91/2025/QH15",
+          "gazette_page": 28,
+          "article_title": "Bảo vệ dữ liệu cá nhân của trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi",
+          "effective_date": "2026-01-01",
+          "article": 24,
+          "chapter": "II",
+          "year": 2025
+        },
+        "score": 0.031281,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-bvdlcn-2025:p016:struct:000 | data/raw/luat-91-2025-qh15-bvdlcn.pdf | page 16]\n1. Bảo vệ dữ liệu cá nhân của trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi thực hiện theo quy định của Luật này.\n2. Đối với trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự hoặc người có khó khăn trong nhận thức, làm chủ hành vi thì người đại diện theo pháp luật thay mặt thực hiện các quyền của chủ thể dữ liệu cá nhân, trừ các trường hợp quy định tại khoản 1 Điều 19 của Luật này. Việc xử lý dữ liệu cá nhân của trẻ em nhằm công bố, tiết lộ thông tin về đời sống riêng tư, bí mật cá nhân của trẻ em từ đủ 07 tuổi trở lên thì phải có sự đồng ý của trẻ em và người đại diện theo pháp luật.\n3. Ngừng xử lý dữ liệu cá nhân của trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi trong trường hợp sau đây:\n\n[luat-anm-2025:p017:struct:002 | data/raw/luat-116-2025-qh15-anm.pdf | page 17]\nĐiều 16. Phòng, chống xâm hại trẻ em trên không gian mạng\n1. Trẻ em có quyền được tiếp cận thông tin, tham gia hoạt động xã hội, vui chơi, giải trí, bảo vệ bí mật cá nhân, đời sống riêng tư và các quyền khác trên không gian mạng theo quy định của pháp luật.\n2. Trẻ em sử dụng dịch vụ giá trị gia tăng trên không gian mạng thì cha, mẹ hoặc người giám hộ theo quy định của pháp luật về dân sự đăng ký tài khoản bằng thông tin của cha, mẹ hoặc người giám hộ và có trách nhiệm giám sát, quản lý nội dung trẻ em truy cập, đăng tải và chia sẻ thông tin trên các nền tảng dịch vụ đó.\n3. Chủ quản hệ thống thông tin, doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ giá trị gia tăng trên không gian mạng có các trách nhiệm sau đây:\na) Kiểm soát nội dung thông tin trên hệ thống thông tin hoặc trên dịch vụ do doanh nghiệp cung cấp để không gây nguy hại cho trẻ em hoặc xâm hại trẻ em hoặc xâm phạm quyền trẻ em;",
+    "context_ids": [
+      "luat-bvdlcn-2025:p016:struct:000",
+      "luat-anm-2025:p017:struct:002"
+    ]
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Chữ ký số có bảo đảm tính bí mật của thông điệp dữ liệu không?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 25.98,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-gddt-2023:p002:struct:001",
+        "text": "12. Chữ ký số là chữ ký điện tử sử dụng thuật toán khóa không đối xứng, gồm khóa bí mật và khóa công khai, trong đó khóa bí mật được dùng để ký số và khóa công khai được dùng để kiểm tra chữ ký số. Chữ ký số bảo đảm tính xác thực, tính toàn vẹn và tính chống chối bỏ nhưng không bảo đảm tính bí mật của thông điệp dữ liệu.\n13. Chứng thư chữ ký điện tử là thông điệp dữ liệu nhằm xác nhận cơ quan, tổ chức, cá nhân được chứng thực là người ký chữ ký điện tử. Chứng thư chữ ký điện tử đối với chữ ký số được gọi là chứng thư chữ ký số.\n14. Dịch vụ chứng thực chữ ký số là dịch vụ do tổ chức cung cấp dịch vụ chứng thực chữ ký số cung cấp để xác thực chủ thể ký số trên thông điệp dữ liệu, bảo đảm tính chống chối bỏ của chủ thể ký với thông điệp dữ liệu và bảo đảm tính toàn vẹn của thông điệp dữ liệu được ký.\n15. Dấu thời gian là dữ liệu điện tử gắn với thông điệp dữ liệu cho phép xác định thời gian của thông điệp dữ liệu đó tồn tại ở một thời điểm cụ thể.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 2,
+        "metadata": {
+          "articles": [
+            3
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 5,
+          "article_title": "Giải thích từ ngữ",
+          "effective_date": "2024-07-01",
+          "article": 3,
+          "chapter": "I",
+          "year": 2023
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-gddt-2023:p013:struct:000",
+        "text": "2. Chữ ký điện tử chuyên dùng bảo đảm an toàn hoặc chữ ký số có giá trị pháp lý tương đương chữ ký của cá nhân đó trong văn bản giấy.\n3. Trường hợp pháp luật quy định văn bản phải được cơ quan, tổ chức xác nhận thì yêu cầu đó được xem là đáp ứng đối với một thông điệp dữ liệu nếu thông điệp dữ liệu đó được ký bằng chữ ký điện tử chuyên dùng bảo đảm an toàn hoặc chữ ký số của cơ quan, tổ chức đó.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 13,
+        "metadata": {
+          "articles": [
+            23
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 16,
+          "article_title": "Giá trị pháp lý của chữ ký điện tử",
+          "effective_date": "2024-07-01",
+          "article": 23,
+          "chapter": "III",
+          "year": 2023
+        },
+        "score": 0.032002,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-gddt-2023:p012:struct:001",
+        "text": "đ) Phải được bảo đảm bởi chứng thư chữ ký số. Trường hợp chữ ký số chuyên dùng công vụ phải được bảo đảm bởi chứng thư chữ ký số của tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ. Trường hợp chữ ký số công cộng phải được bảo đảm bởi chứng thư chữ ký số của tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng;\ne) Phương tiện tạo chữ ký số phải bảo đảm dữ liệu tạo chữ ký số không bị tiết lộ, thu thập, sử dụng cho mục đích giả mạo chữ ký; bảo đảm dữ liệu được dùng để tạo chữ ký số chỉ có thể sử dụng một lần duy nhất; không làm thay đổi dữ liệu cần ký.\n4. Việc sử dụng các hình thức xác nhận khác bằng phương tiện điện tử để thể hiện sự chấp thuận của chủ thể ký đối với thông điệp dữ liệu mà không phải là chữ ký điện tử thực hiện theo quy định khác của pháp luật có liên quan.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 12,
+        "metadata": {
+          "articles": [
+            22
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 15,
+          "article_title": "Chữ ký điện tử",
+          "effective_date": "2024-07-01",
+          "article": 22,
+          "chapter": "III",
+          "year": 2023
+        },
+        "score": 0.031754,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-gddt-2023:p002:struct:001 | data/raw/luat-20-2023-qh15-gddt.pdf | page 2]\n12. Chữ ký số là chữ ký điện tử sử dụng thuật toán khóa không đối xứng, gồm khóa bí mật và khóa công khai, trong đó khóa bí mật được dùng để ký số và khóa công khai được dùng để kiểm tra chữ ký số. Chữ ký số bảo đảm tính xác thực, tính toàn vẹn và tính chống chối bỏ nhưng không bảo đảm tính bí mật của thông điệp dữ liệu.\n13. Chứng thư chữ ký điện tử là thông điệp dữ liệu nhằm xác nhận cơ quan, tổ chức, cá nhân được chứng thực là người ký chữ ký điện tử. Chứng thư chữ ký điện tử đối với chữ ký số được gọi là chứng thư chữ ký số.\n14. Dịch vụ chứng thực chữ ký số là dịch vụ do tổ chức cung cấp dịch vụ chứng thực chữ ký số cung cấp để xác thực chủ thể ký số trên thông điệp dữ liệu, bảo đảm tính chống chối bỏ của chủ thể ký với thông điệp dữ liệu và bảo đảm tính toàn vẹn của thông điệp dữ liệu được ký.\n15. Dấu thời gian là dữ liệu điện tử gắn với thông điệp dữ liệu cho phép xác định thời gian của thông điệp dữ liệu đó tồn tại ở một thời điểm cụ thể.\n\n[luat-gddt-2023:p013:struct:000 | data/raw/luat-20-2023-qh15-gddt.pdf | page 13]\n2. Chữ ký điện tử chuyên dùng bảo đảm an toàn hoặc chữ ký số có giá trị pháp lý tương đương chữ ký của cá nhân đó trong văn bản giấy.\n3. Trường hợp pháp luật quy định văn bản phải được cơ quan, tổ chức xác nhận thì yêu cầu đó được xem là đáp ứng đối với một thông điệp dữ liệu nếu thông điệp dữ liệu đó được ký bằng chữ ký điện tử chuyên dùng bảo đảm an toàn hoặc chữ ký số của cơ quan, tổ chức đó.",
+    "context_ids": [
+      "luat-gddt-2023:p002:struct:001",
+      "luat-gddt-2023:p013:struct:000"
+    ]
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Giấy phép kinh doanh dịch vụ tin cậy có thời hạn bao lâu?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 24.69,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-gddt-2023:p016:struct:000",
+        "text": "a) Dịch vụ cấp dấu thời gian;\nb) Dịch vụ chứng thực thông điệp dữ liệu;\nc) Dịch vụ chứng thực chữ ký số công cộng.\n2. Dịch vụ tin cậy là ngành, nghề đầu tư kinh doanh có điều kiện.\n3. Tổ chức cung cấp dịch vụ tin cậy phải có giấy phép kinh doanh dịch vụ do Bộ Thông tin và Truyền thông cấp, trừ dịch vụ chứng thực hợp đồng điện tử trong thương mại. Tổ chức được quyền đăng ký một hoặc các dịch vụ quy định tại khoản 1 Điều này. Thời hạn của giấy phép kinh doanh dịch vụ tin cậy là 10 năm. Tổ chức cung cấp dịch vụ chứng thực hợp đồng điện tử trong thương mại phải đáp ứng điều kiện hoạt động cung cấp dịch vụ chứng thực hợp đồng điện tử theo quy định của pháp luật về thương mại điện tử và điều kiện kinh doanh dịch vụ tin cậy theo quy định tại Điều 29 của Luật này.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 16,
+        "metadata": {
+          "articles": [
+            28
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 19,
+          "article_title": "Dịch vụ tin cậy",
+          "effective_date": "2024-07-01",
+          "article": 28,
+          "chapter": "III",
+          "year": 2023
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-gddt-2023:p015:struct:003",
+        "text": "Mục 2\nDỊCH VỤ TIN CẬY\nĐiều 28. Dịch vụ tin cậy\n1. Dịch vụ tin cậy bao gồm:",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 15,
+        "metadata": {
+          "articles": [
+            28
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 18,
+          "article_title": "Dịch vụ tin cậy",
+          "effective_date": "2024-07-01",
+          "article": 28,
+          "chapter": "III",
+          "year": 2023
+        },
+        "score": 0.031754,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-gddt-2023:p016:struct:002",
+        "text": "Điều 29. Điều kiện kinh doanh dịch vụ tin cậy\n1. Điều kiện kinh doanh dịch vụ tin cậy bao gồm:\na) Là doanh nghiệp được thành lập và hoạt động hợp pháp trên lãnh thổ Việt Nam;\nb) Đáp ứng điều kiện tài chính, nhân lực quản lý và kỹ thuật phù hợp với từng loại dịch vụ tin cậy quy định tại khoản 1 Điều 28 của Luật này;\nc) Hệ thống thông tin cung cấp dịch vụ tin cậy đáp ứng yêu cầu bảo đảm an toàn thông tin mạng tối thiểu cấp độ 3 theo quy định của pháp luật về an toàn thông tin mạng;\nd) Có phương án kỹ thuật phục vụ hoạt động cung cấp dịch vụ phù hợp với từng loại dịch vụ tin cậy quy định tại khoản 1 Điều 28 của Luật này;\nđ) Có phương án sẵn sàng kết nối kỹ thuật phục vụ giám sát, kiểm tra, báo cáo số liệu bằng phương tiện điện tử đáp ứng yêu cầu quản lý nhà nước về dịch vụ tin cậy.\n2. Chính phủ quy định chi tiết khoản 1 Điều này.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 16,
+        "metadata": {
+          "articles": [
+            29
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 19,
+          "article_title": "Điều kiện kinh doanh dịch vụ tin cậy",
+          "effective_date": "2024-07-01",
+          "article": 29,
+          "chapter": "III",
+          "year": 2023
+        },
+        "score": 0.031754,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-gddt-2023:p016:struct:000 | data/raw/luat-20-2023-qh15-gddt.pdf | page 16]\na) Dịch vụ cấp dấu thời gian;\nb) Dịch vụ chứng thực thông điệp dữ liệu;\nc) Dịch vụ chứng thực chữ ký số công cộng.\n2. Dịch vụ tin cậy là ngành, nghề đầu tư kinh doanh có điều kiện.\n3. Tổ chức cung cấp dịch vụ tin cậy phải có giấy phép kinh doanh dịch vụ do Bộ Thông tin và Truyền thông cấp, trừ dịch vụ chứng thực hợp đồng điện tử trong thương mại. Tổ chức được quyền đăng ký một hoặc các dịch vụ quy định tại khoản 1 Điều này. Thời hạn của giấy phép kinh doanh dịch vụ tin cậy là 10 năm. Tổ chức cung cấp dịch vụ chứng thực hợp đồng điện tử trong thương mại phải đáp ứng điều kiện hoạt động cung cấp dịch vụ chứng thực hợp đồng điện tử theo quy định của pháp luật về thương mại điện tử và điều kiện kinh doanh dịch vụ tin cậy theo quy định tại Điều 29 của Luật này.\n\n[luat-gddt-2023:p015:struct:003 | data/raw/luat-20-2023-qh15-gddt.pdf | page 15]\nMục 2\nDỊCH VỤ TIN CẬY\nĐiều 28. Dịch vụ tin cậy\n1. Dịch vụ tin cậy bao gồm:\n\n[luat-gddt-2023:p016:struct:002 | data/raw/luat-20-2023-qh15-gddt.pdf | page 16]\nĐiều 29. Điều kiện kinh doanh dịch vụ tin cậy\n1. Điều kiện kinh doanh dịch vụ tin cậy bao gồm:\na) Là doanh nghiệp được thành lập và hoạt động hợp pháp trên lãnh thổ Việt Nam;\nb) Đáp ứng điều kiện tài chính, nhân lực quản lý và kỹ thuật phù hợp với từng loại dịch vụ tin cậy quy định tại khoản 1 Điều 28 của Luật này;\nc) Hệ thống thông tin cung cấp dịch vụ tin cậy đáp ứng yêu cầu bảo đảm an toàn thông tin mạng tối thiểu cấp độ 3 theo quy định của pháp luật về an toàn thông tin mạng;\nd) Có phương án kỹ thuật phục vụ hoạt động cung cấp dịch vụ phù hợp với từng loại dịch vụ tin cậy quy định tại khoản 1 Điều 28 của Luật này;\nđ) Có phương án sẵn sàng kết nối kỹ thuật phục vụ giám sát, kiểm tra, báo cáo số liệu bằng phương tiện điện tử đáp ứng yêu cầu quản lý nhà nước về dịch vụ tin cậy.\n2. Chính phủ quy định chi tiết khoản 1 Điều này.",
+    "context_ids": [
+      "luat-gddt-2023:p016:struct:000",
+      "luat-gddt-2023:p015:struct:003",
+      "luat-gddt-2023:p016:struct:002"
+    ]
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Đơn vị cung cấp dịch vụ tin cậy phải duy trì kênh tiếp nhận thông tin hoạt động vào những khoảng thời gian nào?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 24.72,
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "context_evidence": false,
+    "results": [
+      {
+        "id": "luat-gddt-2023:p015:struct:003",
+        "text": "Mục 2\nDỊCH VỤ TIN CẬY\nĐiều 28. Dịch vụ tin cậy\n1. Dịch vụ tin cậy bao gồm:",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 15,
+        "metadata": {
+          "articles": [
+            28
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 18,
+          "article_title": "Dịch vụ tin cậy",
+          "effective_date": "2024-07-01",
+          "article": 28,
+          "chapter": "III",
+          "year": 2023
+        },
+        "score": 0.032018,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-gddt-2023:p016:struct:000",
+        "text": "a) Dịch vụ cấp dấu thời gian;\nb) Dịch vụ chứng thực thông điệp dữ liệu;\nc) Dịch vụ chứng thực chữ ký số công cộng.\n2. Dịch vụ tin cậy là ngành, nghề đầu tư kinh doanh có điều kiện.\n3. Tổ chức cung cấp dịch vụ tin cậy phải có giấy phép kinh doanh dịch vụ do Bộ Thông tin và Truyền thông cấp, trừ dịch vụ chứng thực hợp đồng điện tử trong thương mại. Tổ chức được quyền đăng ký một hoặc các dịch vụ quy định tại khoản 1 Điều này. Thời hạn của giấy phép kinh doanh dịch vụ tin cậy là 10 năm. Tổ chức cung cấp dịch vụ chứng thực hợp đồng điện tử trong thương mại phải đáp ứng điều kiện hoạt động cung cấp dịch vụ chứng thực hợp đồng điện tử theo quy định của pháp luật về thương mại điện tử và điều kiện kinh doanh dịch vụ tin cậy theo quy định tại Điều 29 của Luật này.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 16,
+        "metadata": {
+          "articles": [
+            28
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 19,
+          "article_title": "Dịch vụ tin cậy",
+          "effective_date": "2024-07-01",
+          "article": 28,
+          "chapter": "III",
+          "year": 2023
+        },
+        "score": 0.032018,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-gddt-2023:p017:struct:000",
+        "text": "Điều 30. Trách nhiệm của tổ chức cung cấp dịch vụ tin cậy\n1. Công bố công khai quy trình đăng ký sử dụng dịch vụ, biểu mẫu và chi phí liên quan.\n2. Bảo đảm kênh tiếp nhận thông tin và cung cấp dịch vụ liên tục 24 giờ trong ngày và 07 ngày trong tuần.\n3. Thực hiện chế độ lưu trữ hồ sơ, tài liệu và kết nối, cung cấp thông tin, số liệu báo cáo bằng phương tiện điện tử theo quy định của pháp luật.\n4. Bảo đảm trang thiết bị trong hệ thống thông tin được cấp mã quản lý, sẵn sàng kết nối kỹ thuật phục vụ công tác quản lý nhà nước về dịch vụ tin cậy.\n5. Thực hiện biện pháp nghiệp vụ, tạm dừng, chấm dứt cung cấp dịch vụ hoặc biện pháp nghiệp vụ khác theo yêu cầu của cơ quan có thẩm quyền theo quy định của pháp luật.\n6. Thực hiện trách nhiệm của chủ quản hệ thống thông tin phục vụ cung cấp dịch vụ tin cậy đáp ứng yêu cầu bảo đảm an toàn thông tin mạng tối thiểu cấp độ 3 theo quy định của pháp luật về an toàn thông tin mạng.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 17,
+        "metadata": {
+          "articles": [
+            30
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 20,
+          "article_title": "Trách nhiệm của tổ chức cung cấp dịch vụ tin cậy",
+          "effective_date": "2024-07-01",
+          "article": 30,
+          "chapter": "III",
+          "year": 2023
+        },
+        "score": 0.032002,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      }
+    ],
+    "context": "[luat-gddt-2023:p015:struct:003 | data/raw/luat-20-2023-qh15-gddt.pdf | page 15]\nMục 2\nDỊCH VỤ TIN CẬY\nĐiều 28. Dịch vụ tin cậy\n1. Dịch vụ tin cậy bao gồm:\n\n[luat-gddt-2023:p016:struct:000 | data/raw/luat-20-2023-qh15-gddt.pdf | page 16]\na) Dịch vụ cấp dấu thời gian;\nb) Dịch vụ chứng thực thông điệp dữ liệu;\nc) Dịch vụ chứng thực chữ ký số công cộng.\n2. Dịch vụ tin cậy là ngành, nghề đầu tư kinh doanh có điều kiện.\n3. Tổ chức cung cấp dịch vụ tin cậy phải có giấy phép kinh doanh dịch vụ do Bộ Thông tin và Truyền thông cấp, trừ dịch vụ chứng thực hợp đồng điện tử trong thương mại. Tổ chức được quyền đăng ký một hoặc các dịch vụ quy định tại khoản 1 Điều này. Thời hạn của giấy phép kinh doanh dịch vụ tin cậy là 10 năm. Tổ chức cung cấp dịch vụ chứng thực hợp đồng điện tử trong thương mại phải đáp ứng điều kiện hoạt động cung cấp dịch vụ chứng thực hợp đồng điện tử theo quy định của pháp luật về thương mại điện tử và điều kiện kinh doanh dịch vụ tin cậy theo quy định tại Điều 29 của Luật này.\n\n[luat-gddt-2023:p016:struct:002 | data/raw/luat-20-2023-qh15-gddt.pdf | page 16]\nĐiều 29. Điều kiện kinh doanh dịch vụ tin cậy\n1. Điều kiện kinh doanh dịch vụ tin cậy bao gồm:\na) Là doanh nghiệp được thành lập và hoạt động hợp pháp trên lãnh thổ Việt Nam;\nb) Đáp ứng điều kiện tài chính, nhân lực quản lý và kỹ thuật phù hợp với từng loại dịch vụ tin cậy quy định tại khoản 1 Điều 28 của Luật này;\nc) Hệ thống thông tin cung cấp dịch vụ tin cậy đáp ứng yêu cầu bảo đảm an toàn thông tin mạng tối thiểu cấp độ 3 theo quy định của pháp luật về an toàn thông tin mạng;\nd) Có phương án kỹ thuật phục vụ hoạt động cung cấp dịch vụ phù hợp với từng loại dịch vụ tin cậy quy định tại khoản 1 Điều 28 của Luật này;\nđ) Có phương án sẵn sàng kết nối kỹ thuật phục vụ giám sát, kiểm tra, báo cáo số liệu bằng phương tiện điện tử đáp ứng yêu cầu quản lý nhà nước về dịch vụ tin cậy.\n2. Chính phủ quy định chi tiết khoản 1 Điều này.",
+    "context_ids": [
+      "luat-gddt-2023:p015:struct:003",
+      "luat-gddt-2023:p016:struct:000",
+      "luat-gddt-2023:p016:struct:002"
+    ]
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Thông tin có bị mất giá trị pháp lý chỉ vì nó ở dạng thông điệp dữ liệu không?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 24.76,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-gddt-2023:p004:struct:002",
+        "text": "Điều 8. Giá trị pháp lý của thông điệp dữ liệu\nThông tin trong thông điệp dữ liệu không bị phủ nhận giá trị pháp lý chỉ vì thông tin đó được thể hiện dưới dạng thông điệp dữ liệu.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 4,
+        "metadata": {
+          "articles": [
+            8
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 7,
+          "article_title": "Giá trị pháp lý của thông điệp dữ liệu",
+          "effective_date": "2024-07-01",
+          "article": 8,
+          "chapter": "II",
+          "year": 2023
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-gddt-2023:p019:struct:004",
+        "text": "Điều 38. Giá trị pháp lý của thông báo trong giao kết và thực hiện hợp đồng điện tử\nTrong giao kết và thực hiện hợp đồng điện tử, thông báo dưới dạng thông điệp dữ liệu có giá trị pháp lý như thông báo bằng văn bản giấy.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 19,
+        "metadata": {
+          "articles": [
+            38
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 22,
+          "article_title": "Giá trị pháp lý của thông báo trong giao kết và thực hiện hợp đồng điện tử",
+          "effective_date": "2024-07-01",
+          "article": 38,
+          "chapter": "IV",
+          "year": 2023
+        },
+        "score": 0.031498,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-gddt-2023:p004:struct:003",
+        "text": "Điều 9. Thông điệp dữ liệu có giá trị như văn bản\n1. Trường hợp pháp luật yêu cầu thông tin phải được thể hiện bằng văn bản thì thông điệp dữ liệu được xem là đáp ứng yêu cầu nếu thông tin trong thông điệp dữ liệu đó có thể truy cập và sử dụng được để tham chiếu.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 4,
+        "metadata": {
+          "articles": [
+            9
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 7,
+          "article_title": "Thông điệp dữ liệu có giá trị như văn bản",
+          "effective_date": "2024-07-01",
+          "article": 9,
+          "chapter": "II",
+          "year": 2023
+        },
+        "score": 0.031281,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-gddt-2023:p004:struct:002 | data/raw/luat-20-2023-qh15-gddt.pdf | page 4]\nĐiều 8. Giá trị pháp lý của thông điệp dữ liệu\nThông tin trong thông điệp dữ liệu không bị phủ nhận giá trị pháp lý chỉ vì thông tin đó được thể hiện dưới dạng thông điệp dữ liệu.\n\n[luat-gddt-2023:p019:struct:004 | data/raw/luat-20-2023-qh15-gddt.pdf | page 19]\nĐiều 38. Giá trị pháp lý của thông báo trong giao kết và thực hiện hợp đồng điện tử\nTrong giao kết và thực hiện hợp đồng điện tử, thông báo dưới dạng thông điệp dữ liệu có giá trị pháp lý như thông báo bằng văn bản giấy.\n\n[luat-gddt-2023:p004:struct:003 | data/raw/luat-20-2023-qh15-gddt.pdf | page 4]\nĐiều 9. Thông điệp dữ liệu có giá trị như văn bản\n1. Trường hợp pháp luật yêu cầu thông tin phải được thể hiện bằng văn bản thì thông điệp dữ liệu được xem là đáp ứng yêu cầu nếu thông tin trong thông điệp dữ liệu đó có thể truy cập và sử dụng được để tham chiếu.\n\n[luat-gddt-2023:p005:struct:001 | data/raw/luat-20-2023-qh15-gddt.pdf | page 5]\nĐiều 10. Thông điệp dữ liệu có giá trị như bản gốc\nThông điệp dữ liệu được sử dụng và có giá trị như bản gốc khi đáp ứng đủ các yêu cầu sau đây:\n1. Thông tin trong thông điệp dữ liệu được bảo đảm toàn vẹn kể từ khi được khởi tạo lần đầu tiên dưới dạng một thông điệp dữ liệu hoàn chỉnh. Thông tin trong thông điệp dữ liệu được xem là toàn vẹn khi thông tin đó chưa bị thay đổi, trừ những thay đổi về hình thức phát sinh trong quá trình gửi, lưu trữ hoặc hiển thị thông điệp dữ liệu;\n2. Thông tin trong thông điệp dữ liệu có thể truy cập và sử dụng được dưới dạng hoàn chỉnh.",
+    "context_ids": [
+      "luat-gddt-2023:p004:struct:002",
+      "luat-gddt-2023:p019:struct:004",
+      "luat-gddt-2023:p004:struct:003",
+      "luat-gddt-2023:p005:struct:001"
+    ]
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Cơ quan nhà nước phải dành tối thiểu bao nhiêu phần trăm kinh phí dự án chuyển đổi số cho bảo vệ an ninh mạng?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 25.25,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-anm-2025:p030:struct:003",
+        "text": "Điều 38. Kinh phí bảo vệ an ninh mạng\n1. Cơ quan, tổ chức, doanh nghiệp nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội và các đơn vị sự nghiệp công lập do ngân sách nhà nước bảo đảm phải bố trí kinh phí bảo vệ an ninh mạng trong dự toán chi thực hiện nhiệm vụ chuyển đổi số, ứng dụng công nghệ thông tin hàng năm của cơ quan, tổ chức, đơn vị mình; bố trí tối thiểu 15% tổng kinh phí thực hiện chương trình, đề án, dự án đầu tư chuyển đổi số, ứng dụng công nghệ thông tin để bảo vệ an ninh mạng.\n2. Cơ quan, tổ chức, đơn vị không thuộc quy định tại khoản 1 Điều này tự bảo đảm kinh phí bảo vệ an ninh mạng cho cơ quan, tổ chức, đơn vị mình.",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 30,
+        "metadata": {
+          "articles": [
+            38
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 33,
+          "article_title": "Kinh phí bảo vệ an ninh mạng",
+          "effective_date": "2026-07-01",
+          "article": 38,
+          "chapter": "VI",
+          "year": 2025
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-anm-2025:p023:struct:000",
+        "text": "c) Tổ chức bồi dưỡng kiến thức về an ninh mạng cho cán bộ, công chức, viên chức, người lao động; nâng cao năng lực bảo vệ an ninh mạng cho lực lượng bảo vệ an ninh mạng;\nd) Bảo vệ an ninh mạng trong hoạt động cung cấp dịch vụ công trên không gian mạng, cung cấp, trao đổi, thu thập thông tin với cơ quan, tổ chức, cá nhân, chia sẻ thông tin trong nội bộ và với cơ quan khác hoặc trong hoạt động khác theo quy định của Chính phủ;\nđ) Đầu tư, xây dựng hạ tầng cơ sở vật chất phù hợp với điều kiện bảo đảm triển khai hoạt động bảo vệ an ninh mạng đối với hệ thống thông tin;\ne) Kiểm tra an ninh mạng đối với hệ thống thông tin; phòng, chống hành vi vi phạm pháp luật về an ninh mạng; ứng phó, khắc phục sự cố an ninh mạng.\n2. Người đứng đầu cơ quan, tổ chức có trách nhiệm triển khai hoạt động bảo vệ an ninh mạng thuộc quyền quản lý.",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 23,
+        "metadata": {
+          "articles": [
+            23
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 26,
+          "article_title": "Triển khai hoạt động bảo vệ an ninh mạng trong cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội ở trung ương và địa phương",
+          "effective_date": "2026-07-01",
+          "article": 23,
+          "chapter": "IV",
+          "year": 2025
+        },
+        "score": 0.030303,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-anm-2025:p031:struct:000",
+        "text": "Chương VII\nTRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN\nVỀ AN NINH MẠNG\nĐiều 39. Trách nhiệm quản lý nhà nước về an ninh mạng\n1. Chính phủ thống nhất quản lý nhà nước về an ninh mạng.\n2. Bộ Công an là cơ quan đầu mối giúp Chính phủ thực hiện quản lý nhà nước về an ninh mạng; chịu trách nhiệm trước Chính phủ thực hiện các nội dung quản lý nhà nước về an ninh mạng sau đây, trừ nội dung quy định tại khoản 3 và khoản 4 Điều này:\na) Ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành văn bản quy phạm pháp luật về an ninh mạng;\nb) Xây dựng, đề xuất chiến lược, chủ trương, chính sách, kế hoạch và phương án bảo vệ an ninh mạng; nghiên cứu, xây dựng, phát triển, sử dụng mật mã an ninh để bảo vệ an ninh dữ liệu thuộc phạm vi quản lý của Bộ Công an;\nc) Phối hợp với các cơ quan liên quan tổ chức tuyên truyền, phản bác thông tin có nội dung chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam quy định tại khoản 1 Điều 13 của Luật này;",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 31,
+        "metadata": {
+          "articles": [
+            39
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 34,
+          "article_title": "Trách nhiệm quản lý nhà nước về an ninh mạng",
+          "effective_date": "2026-07-01",
+          "article": 39,
+          "chapter": "VII",
+          "year": 2025
+        },
+        "score": 0.029572,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-anm-2025:p030:struct:003 | data/raw/luat-116-2025-qh15-anm.pdf | page 30]\nĐiều 38. Kinh phí bảo vệ an ninh mạng\n1. Cơ quan, tổ chức, doanh nghiệp nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội và các đơn vị sự nghiệp công lập do ngân sách nhà nước bảo đảm phải bố trí kinh phí bảo vệ an ninh mạng trong dự toán chi thực hiện nhiệm vụ chuyển đổi số, ứng dụng công nghệ thông tin hàng năm của cơ quan, tổ chức, đơn vị mình; bố trí tối thiểu 15% tổng kinh phí thực hiện chương trình, đề án, dự án đầu tư chuyển đổi số, ứng dụng công nghệ thông tin để bảo vệ an ninh mạng.\n2. Cơ quan, tổ chức, đơn vị không thuộc quy định tại khoản 1 Điều này tự bảo đảm kinh phí bảo vệ an ninh mạng cho cơ quan, tổ chức, đơn vị mình.\n\n[luat-anm-2025:p023:struct:000 | data/raw/luat-116-2025-qh15-anm.pdf | page 23]\nc) Tổ chức bồi dưỡng kiến thức về an ninh mạng cho cán bộ, công chức, viên chức, người lao động; nâng cao năng lực bảo vệ an ninh mạng cho lực lượng bảo vệ an ninh mạng;\nd) Bảo vệ an ninh mạng trong hoạt động cung cấp dịch vụ công trên không gian mạng, cung cấp, trao đổi, thu thập thông tin với cơ quan, tổ chức, cá nhân, chia sẻ thông tin trong nội bộ và với cơ quan khác hoặc trong hoạt động khác theo quy định của Chính phủ;\nđ) Đầu tư, xây dựng hạ tầng cơ sở vật chất phù hợp với điều kiện bảo đảm triển khai hoạt động bảo vệ an ninh mạng đối với hệ thống thông tin;\ne) Kiểm tra an ninh mạng đối với hệ thống thông tin; phòng, chống hành vi vi phạm pháp luật về an ninh mạng; ứng phó, khắc phục sự cố an ninh mạng.\n2. Người đứng đầu cơ quan, tổ chức có trách nhiệm triển khai hoạt động bảo vệ an ninh mạng thuộc quyền quản lý.",
+    "context_ids": [
+      "luat-anm-2025:p030:struct:003",
+      "luat-anm-2025:p023:struct:000"
+    ]
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Trong trường hợp khẩn cấp đe dọa an ninh quốc gia, doanh nghiệp phải ngăn chặn, xóa bỏ thông tin vi phạm trên không gian mạng trong thời hạn bao lâu?",
+    "method": "hybrid",
+    "filter": null,
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 26.62,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-anm-2025:p024:struct:000",
+        "text": "giờ kể từ thời điểm có yêu cầu bằng văn bản hoặc thư điện tử, điện thoại hoặc hình thức trao đổi khác đã được xác nhận để phục vụ xác minh, điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng; trường hợp khẩn cấp đe dọa xâm hại an ninh quốc gia, đe dọa tính mạng con người, yêu cầu cung cấp thông tin chậm nhất là 03 giờ;\nb) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin, gỡ bỏ dịch vụ, ứng dụng có nội dung vi phạm quy định của Luật này chậm nhất là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an và lưu nhật ký hệ thống để phục vụ xác minh, điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng trong thời gian theo quy định của pháp luật; trường hợp khẩn cấp đe dọa xâm hại an ninh quốc gia, yêu cầu ngăn chặn, xóa bỏ thông tin chậm nhất là 06 giờ;",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 24,
+        "metadata": {
+          "articles": [
+            25
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 27,
+          "article_title": "Bảo đảm an ninh thông tin mạng",
+          "effective_date": "2026-07-01",
+          "article": 25,
+          "chapter": "IV",
+          "year": 2025
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-anm-2025:p031:struct:001",
+        "text": "d) Yêu cầu doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng, chủ quản hệ thống thông tin loại bỏ thông tin có nội dung vi phạm pháp luật về an ninh mạng trên dịch vụ, hệ thống thông tin do doanh nghiệp, cơ quan, tổ chức trực tiếp quản lý;\nđ) Phòng ngừa, đấu tranh với hoạt động sử dụng không gian mạng xâm phạm chủ quyền, lợi ích, an ninh quốc gia, trật tự, an toàn xã hội và phòng, chống tội phạm mạng;\ne) Bảo đảm an ninh thông tin trên không gian mạng, an ninh dữ liệu; xây dựng cơ chế quản lý định danh địa chỉ IP; xác thực thông tin đăng ký tài khoản số; cảnh báo, chia sẻ thông tin an ninh mạng, nguy cơ đe dọa an ninh mạng;\ng) Tham mưu, đề xuất Chính phủ, Thủ tướng Chính phủ xem xét, quyết định việc phân công, phối hợp thực hiện các biện pháp bảo vệ an ninh mạng, phòng ngừa, xử lý hành vi xâm phạm an ninh mạng trong trường hợp nội dung quản lý nhà nước liên quan đến phạm vi quản lý của nhiều Bộ, ngành;",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 31,
+        "metadata": {
+          "articles": [
+            39
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 34,
+          "article_title": "Trách nhiệm quản lý nhà nước về an ninh mạng",
+          "effective_date": "2026-07-01",
+          "article": 39,
+          "chapter": "VII",
+          "year": 2025
+        },
+        "score": 0.032258,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-anm-2025:p019:struct:001",
+        "text": "3. Khi xảy ra tấn công mạng xâm phạm hoặc đe dọa xâm phạm chủ quyền, lợi ích, an ninh quốc gia, gây tổn hại nghiêm trọng trật tự, an toàn xã hội, lực lượng chuyên trách bảo vệ an ninh mạng chủ trì, phối hợp với chủ quản hệ thống thông tin và tổ chức, cá nhân có liên quan áp dụng biện pháp xác định nguồn gốc tấn công mạng, thu thập chứng cứ; yêu cầu doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng chặn lọc thông tin để ngăn chặn, loại trừ hành vi tấn công mạng và cung cấp đầy đủ, kịp thời thông tin, tài liệu liên quan.\n4. Trách nhiệm phòng, chống tấn công mạng được quy định như sau:\na) Bộ Công an chủ trì, phối hợp với Bộ, ngành, địa phương có liên quan thực hiện công tác phòng ngừa, phát hiện, xử lý hành vi quy định tại khoản 1 Điều này xâm phạm hoặc đe dọa xâm phạm chủ quyền, lợi ích, an ninh quốc gia, gây tổn hại nghiêm trọng trật tự, an toàn xã hội trên phạm vi cả nước, trừ trường hợp quy định tại điểm b và điểm c khoản này;",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 19,
+        "metadata": {
+          "articles": [
+            18
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 22,
+          "article_title": "Phòng, chống tấn công mạng",
+          "effective_date": "2026-07-01",
+          "article": 18,
+          "chapter": "III",
+          "year": 2025
+        },
+        "score": 0.031498,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-anm-2025:p024:struct:000 | data/raw/luat-116-2025-qh15-anm.pdf | page 24]\ngiờ kể từ thời điểm có yêu cầu bằng văn bản hoặc thư điện tử, điện thoại hoặc hình thức trao đổi khác đã được xác nhận để phục vụ xác minh, điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng; trường hợp khẩn cấp đe dọa xâm hại an ninh quốc gia, đe dọa tính mạng con người, yêu cầu cung cấp thông tin chậm nhất là 03 giờ;\nb) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin, gỡ bỏ dịch vụ, ứng dụng có nội dung vi phạm quy định của Luật này chậm nhất là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an và lưu nhật ký hệ thống để phục vụ xác minh, điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng trong thời gian theo quy định của pháp luật; trường hợp khẩn cấp đe dọa xâm hại an ninh quốc gia, yêu cầu ngăn chặn, xóa bỏ thông tin chậm nhất là 06 giờ;\n\n[luat-anm-2025:p031:struct:001 | data/raw/luat-116-2025-qh15-anm.pdf | page 31]\nd) Yêu cầu doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng, chủ quản hệ thống thông tin loại bỏ thông tin có nội dung vi phạm pháp luật về an ninh mạng trên dịch vụ, hệ thống thông tin do doanh nghiệp, cơ quan, tổ chức trực tiếp quản lý;\nđ) Phòng ngừa, đấu tranh với hoạt động sử dụng không gian mạng xâm phạm chủ quyền, lợi ích, an ninh quốc gia, trật tự, an toàn xã hội và phòng, chống tội phạm mạng;\ne) Bảo đảm an ninh thông tin trên không gian mạng, an ninh dữ liệu; xây dựng cơ chế quản lý định danh địa chỉ IP; xác thực thông tin đăng ký tài khoản số; cảnh báo, chia sẻ thông tin an ninh mạng, nguy cơ đe dọa an ninh mạng;\ng) Tham mưu, đề xuất Chính phủ, Thủ tướng Chính phủ xem xét, quyết định việc phân công, phối hợp thực hiện các biện pháp bảo vệ an ninh mạng, phòng ngừa, xử lý hành vi xâm phạm an ninh mạng trong trường hợp nội dung quản lý nhà nước liên quan đến phạm vi quản lý của nhiều Bộ, ngành;",
+    "context_ids": [
+      "luat-anm-2025:p024:struct:000",
+      "luat-anm-2025:p031:struct:001"
+    ]
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Luật có hiệu lực thi hành từ ngày nào?",
+    "method": "hybrid",
+    "filter": {
+      "document_id": "luat-gddt-2023"
+    },
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 22.48,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-gddt-2023:p029:struct:001",
+        "text": "Điều 52. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024.\n2. Luật Giao dịch điện tử số 51/2005/QH11 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại Điều 53 của Luật này.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 29,
+        "metadata": {
+          "articles": [
+            52
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 32,
+          "article_title": "Hiệu lực thi hành",
+          "effective_date": "2024-07-01",
+          "article": 52,
+          "chapter": "VIII",
+          "year": 2023
+        },
+        "score": 0.032787,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-gddt-2023:p029:struct:002",
+        "text": "Điều 53. Quy định chuyển tiếp\n1. Giao dịch điện tử được xác lập trước ngày Luật này có hiệu lực thi hành và đến ngày Luật này có hiệu lực thi hành chưa thực hiện xong thì được tiếp tục thực hiện theo quy định của Luật Giao dịch điện tử số 51/2005/QH11 và các văn bản quy phạm pháp luật quy định chi tiết Luật Giao dịch điện tử số 51/2005/QH11, trừ trường hợp các bên thỏa thuận áp dụng quy định của Luật này.\n2. Chứng thư số được cấp trước ngày Luật này có hiệu lực thi hành và đến ngày Luật này có hiệu lực thi hành vẫn còn hiệu lực thì được tiếp tục thực hiện theo quy định của Luật Giao dịch điện tử số 51/2005/QH11 và các văn bản quy phạm pháp luật quy định chi tiết Luật Giao dịch điện tử số 51/2005/QH11 đến hết thời hạn của chứng thư số và có giá trị tương đương chứng thư chữ ký số theo quy định của Luật này.\n3. Giấy phép cung cấp dịch vụ chứng thực chữ ký số công cộng, Giấy phép sử dụng chứng thư số nước ngoài tại Việt Nam, Giấy chứng nhận đăng ký hoạt",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 29,
+        "metadata": {
+          "articles": [
+            53
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 32,
+          "article_title": "Quy định chuyển tiếp",
+          "effective_date": "2024-07-01",
+          "article": 53,
+          "chapter": "VIII",
+          "year": 2023
+        },
+        "score": 0.031754,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-gddt-2023:p030:struct:002",
+        "text": "6. Đối với hồ sơ đăng ký hoạt động cung cấp dịch vụ chứng thực hợp đồng điện tử trong thương mại đã nộp cho cơ quan nhà nước có thẩm quyền nhưng đến ngày Luật này có hiệu lực thi hành chưa được xác nhận đăng ký thì được tiếp tục áp dụng quy định của pháp luật về thương mại điện tử.\n7. Chính phủ quy định chi tiết Điều này./. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 5 thông qua ngày 22 tháng 6 năm 2023.",
+        "source_id": "luat-gddt-2023",
+        "source": "data/raw/luat-20-2023-qh15-gddt.pdf",
+        "page": 30,
+        "metadata": {
+          "articles": [
+            53
+          ],
+          "law_title": "Luật Giao dịch điện tử",
+          "law_number": "20/2023/QH15",
+          "gazette_page": 33,
+          "article_title": "Quy định chuyển tiếp",
+          "effective_date": "2024-07-01",
+          "article": 53,
+          "chapter": "VIII",
+          "year": 2023
+        },
+        "score": 0.031754,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-gddt-2023:p029:struct:001 | data/raw/luat-20-2023-qh15-gddt.pdf | page 29]\nĐiều 52. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024.\n2. Luật Giao dịch điện tử số 51/2005/QH11 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại Điều 53 của Luật này.\n\n[luat-gddt-2023:p029:struct:002 | data/raw/luat-20-2023-qh15-gddt.pdf | page 29]\nĐiều 53. Quy định chuyển tiếp\n1. Giao dịch điện tử được xác lập trước ngày Luật này có hiệu lực thi hành và đến ngày Luật này có hiệu lực thi hành chưa thực hiện xong thì được tiếp tục thực hiện theo quy định của Luật Giao dịch điện tử số 51/2005/QH11 và các văn bản quy phạm pháp luật quy định chi tiết Luật Giao dịch điện tử số 51/2005/QH11, trừ trường hợp các bên thỏa thuận áp dụng quy định của Luật này.\n2. Chứng thư số được cấp trước ngày Luật này có hiệu lực thi hành và đến ngày Luật này có hiệu lực thi hành vẫn còn hiệu lực thì được tiếp tục thực hiện theo quy định của Luật Giao dịch điện tử số 51/2005/QH11 và các văn bản quy phạm pháp luật quy định chi tiết Luật Giao dịch điện tử số 51/2005/QH11 đến hết thời hạn của chứng thư số và có giá trị tương đương chứng thư chữ ký số theo quy định của Luật này.\n3. Giấy phép cung cấp dịch vụ chứng thực chữ ký số công cộng, Giấy phép sử dụng chứng thư số nước ngoài tại Việt Nam, Giấy chứng nhận đăng ký hoạt\n\n[luat-gddt-2023:p030:struct:002 | data/raw/luat-20-2023-qh15-gddt.pdf | page 30]\n6. Đối với hồ sơ đăng ký hoạt động cung cấp dịch vụ chứng thực hợp đồng điện tử trong thương mại đã nộp cho cơ quan nhà nước có thẩm quyền nhưng đến ngày Luật này có hiệu lực thi hành chưa được xác nhận đăng ký thì được tiếp tục áp dụng quy định của pháp luật về thương mại điện tử.\n7. Chính phủ quy định chi tiết Điều này./. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 5 thông qua ngày 22 tháng 6 năm 2023.",
+    "context_ids": [
+      "luat-gddt-2023:p029:struct:001",
+      "luat-gddt-2023:p029:struct:002",
+      "luat-gddt-2023:p030:struct:002"
+    ]
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Phạm vi điều chỉnh của luật là gì?",
+    "method": "hybrid",
+    "filter": {
+      "document_id": "luat-anm-2025"
+    },
+    "top_k": 5,
+    "budget_chars": 2000,
+    "elapsed_ms": 22.19,
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "context_evidence": true,
+    "results": [
+      {
+        "id": "luat-anm-2025:p024:struct:000",
+        "text": "giờ kể từ thời điểm có yêu cầu bằng văn bản hoặc thư điện tử, điện thoại hoặc hình thức trao đổi khác đã được xác nhận để phục vụ xác minh, điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng; trường hợp khẩn cấp đe dọa xâm hại an ninh quốc gia, đe dọa tính mạng con người, yêu cầu cung cấp thông tin chậm nhất là 03 giờ;\nb) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin, gỡ bỏ dịch vụ, ứng dụng có nội dung vi phạm quy định của Luật này chậm nhất là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an và lưu nhật ký hệ thống để phục vụ xác minh, điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng trong thời gian theo quy định của pháp luật; trường hợp khẩn cấp đe dọa xâm hại an ninh quốc gia, yêu cầu ngăn chặn, xóa bỏ thông tin chậm nhất là 06 giờ;",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 24,
+        "metadata": {
+          "articles": [
+            25
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 27,
+          "article_title": "Bảo đảm an ninh thông tin mạng",
+          "effective_date": "2026-07-01",
+          "article": 25,
+          "chapter": "IV",
+          "year": 2025
+        },
+        "score": 0.032522,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      },
+      {
+        "id": "luat-anm-2025:p001:struct:003",
+        "text": "Chương I\nNHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh và đối tượng áp dụng\n1. Luật này quy định về an ninh mạng, bảo vệ an ninh mạng; quyền, nghĩa vụ, trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.\n2. Luật này áp dụng đối với:\na) Cơ quan, tổ chức, cá nhân Việt Nam;\nb) Cơ quan, tổ chức, cá nhân nước ngoài tại Việt Nam và người gốc Việt Nam chưa xác định được quốc tịch đang sinh sống tại Việt Nam đã được cấp giấy chứng nhận căn cước;\nc) Cơ quan, tổ chức, cá nhân nước ngoài trực tiếp tham gia hoặc có liên quan đến hoạt động bảo vệ an ninh mạng, kinh doanh sản phẩm, dịch vụ an ninh mạng tại Việt Nam.",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 1,
+        "metadata": {
+          "articles": [
+            1
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 4,
+          "article_title": "Phạm vi điều chỉnh và đối tượng áp dụng",
+          "effective_date": "2026-07-01",
+          "article": 1,
+          "chapter": "I",
+          "year": 2025
+        },
+        "score": 0.031099,
+        "strategy": "hybrid_rrf",
+        "hit": true
+      },
+      {
+        "id": "luat-anm-2025:p007:struct:002",
+        "text": "i) Hướng dẫn, xúi giục, lôi kéo, kích động người khác phạm tội hoặc thực hiện hành vi vi phạm pháp luật;\nk) Thực hiện hành vi khác trên không gian mạng bằng việc sử dụng công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\n3. Thực hiện tấn công mạng, khủng bố mạng, gián điệp mạng, tội phạm mạng, tội phạm sử dụng công nghệ cao; gây sự cố, tấn công, xâm nhập, chiếm quyền điều khiển, làm sai lệch, gián đoạn, ngưng trệ, tê liệt hoặc phá hoại hệ thống thông tin.\n4. Sản xuất, đưa vào sử dụng công cụ, phương tiện, phần mềm hoặc có hành vi cản trở, gây rối loạn hoặc phát tán thư rác, tin nhắn rác, cuộc gọi rác, chương trình tin học gây hại đến hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, phương tiện điện tử.",
+        "source_id": "luat-anm-2025",
+        "source": "data/raw/luat-116-2025-qh15-anm.pdf",
+        "page": 7,
+        "metadata": {
+          "articles": [
+            7
+          ],
+          "law_title": "Luật An ninh mạng",
+          "law_number": "116/2025/QH15",
+          "gazette_page": 10,
+          "article_title": "Các hành vi bị nghiêm cấm về an ninh mạng",
+          "effective_date": "2026-07-01",
+          "article": 7,
+          "chapter": "I",
+          "year": 2025
+        },
+        "score": 0.030777,
+        "strategy": "hybrid_rrf",
+        "hit": false
+      }
+    ],
+    "context": "[luat-anm-2025:p024:struct:000 | data/raw/luat-116-2025-qh15-anm.pdf | page 24]\ngiờ kể từ thời điểm có yêu cầu bằng văn bản hoặc thư điện tử, điện thoại hoặc hình thức trao đổi khác đã được xác nhận để phục vụ xác minh, điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng; trường hợp khẩn cấp đe dọa xâm hại an ninh quốc gia, đe dọa tính mạng con người, yêu cầu cung cấp thông tin chậm nhất là 03 giờ;\nb) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin, gỡ bỏ dịch vụ, ứng dụng có nội dung vi phạm quy định của Luật này chậm nhất là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an và lưu nhật ký hệ thống để phục vụ xác minh, điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng trong thời gian theo quy định của pháp luật; trường hợp khẩn cấp đe dọa xâm hại an ninh quốc gia, yêu cầu ngăn chặn, xóa bỏ thông tin chậm nhất là 06 giờ;\n\n[luat-anm-2025:p001:struct:003 | data/raw/luat-116-2025-qh15-anm.pdf | page 1]\nChương I\nNHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh và đối tượng áp dụng\n1. Luật này quy định về an ninh mạng, bảo vệ an ninh mạng; quyền, nghĩa vụ, trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.\n2. Luật này áp dụng đối với:\na) Cơ quan, tổ chức, cá nhân Việt Nam;\nb) Cơ quan, tổ chức, cá nhân nước ngoài tại Việt Nam và người gốc Việt Nam chưa xác định được quốc tịch đang sinh sống tại Việt Nam đã được cấp giấy chứng nhận căn cước;\nc) Cơ quan, tổ chức, cá nhân nước ngoài trực tiếp tham gia hoặc có liên quan đến hoạt động bảo vệ an ninh mạng, kinh doanh sản phẩm, dịch vụ an ninh mạng tại Việt Nam.",
+    "context_ids": [
+      "luat-anm-2025:p024:struct:000",
+      "luat-anm-2025:p001:struct:003"
+    ]
+  }
+]
