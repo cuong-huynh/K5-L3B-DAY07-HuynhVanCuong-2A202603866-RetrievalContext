@@ -92,6 +92,43 @@ python starter/agent_metrics.py \
 
 Kết quả mẫu đã chạy nằm ở `starter/results/` (có thể `git add -f` các file summary/traces được phép chia sẻ).
 
+## Advanced (+15) — multimodal trên BCTN VCB 2024
+
+Tài liệu riêng (≥100 trang, có bảng/ảnh/biểu đồ): **Báo cáo thường niên Vietcombank 2024** (106 trang). Không dùng 3 luật Day 6.
+
+| File | Nội dung |
+|---|---|
+| [`data/advanced/manifest.json`](data/advanced/manifest.json) | URL, SHA-256, quyền, số trang |
+| [`data/advanced/raw/vcb-bctn-2024.pdf`](data/advanced/raw/vcb-bctn-2024.pdf) | PDF gốc (hoặc tải lại theo `source_url` trong manifest) |
+| [`data/advanced/chunks.json`](data/advanced/chunks.json) | 547 chunk text/table/figure |
+| [`data/advanced/questions.json`](data/advanced/questions.json) | 48 câu (dev 18 / test 30) |
+| `assets/advanced/figures/` | crop ảnh/biểu đồ đã caption |
+
+### Index lại (cần Docker Day 6 + `GEMINI_API_KEY` cho caption)
+
+```bash
+python -m rag.advanced.ingest          # parse + crop + caption + ghi chunks.json
+python -m rag.advanced.store           # embed e5 → bảng advanced_chunks
+# hoặc chỉ tạo benchmark:
+python -m rag.advanced.make_benchmark
+```
+
+### Agent + chấm
+
+Cấu hình đã chốt trên **dev**: `top_k=5` · budget `2500` · `max_searches=4` (dev 17/18). Test locked: **27/30 = 90%**.
+
+```bash
+python -m rag.advanced.run_agent --split dev --top-k 5 --budget 2500 --max-searches 4 \
+  --tag locked-k5-b2500 --sleep 4
+python -m rag.advanced.run_agent --split test --top-k 5 --budget 2500 --max-searches 4 \
+  --tag locked-k5-b2500 --sleep 4
+# nếu 429:
+python -m rag.advanced.resume_agent --dir starter/results/advanced-test-locked-k5-b2500 --sleep 5
+python -m rag.advanced.grade --dir starter/results/advanced-test-locked-k5-b2500
+```
+
+Kết quả mẫu: `starter/results/advanced-*-locked-k5-b2500/` (force-add khi nộp). Tool: `search` có filter `modality∈{text,table,figure}`.
+
 ## Lưu ý
 
 - Không commit `.env` / API key.  

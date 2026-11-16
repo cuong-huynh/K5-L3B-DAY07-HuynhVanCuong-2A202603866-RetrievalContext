@@ -50,4 +50,29 @@ Lý do chọn **dense · top_k=5 · budget=2000**: trên dev, Context Evidence 1
 
 ## Thử thách nâng cao (nếu thực hiện)
 
-Không thực hiện trong vòng nộp này (tập trung phần cơ bản 85).
+### Tài liệu và index
+
+- Nguồn: **Báo cáo thường niên 2024 Vietcombank** (106 trang), tải công khai từ website nhà đầu tư VCB. Manifest: [`data/advanced/manifest.json`](../../data/advanced/manifest.json) (URL, SHA-256 `9deccc35…`, quyền dùng học tập). PDF gốc: `data/advanced/raw/vcb-bctn-2024.pdf` (hoặc tải lại theo `source_url`).
+- Pipeline: PyMuPDF layout → text theo trang; `find_tables` → markdown bảng; crop ảnh/biểu đồ → Gemini vision caption (không bịa số liệu). Embedding e5 trên text/table/caption → bảng `advanced_chunks` (pgvector Day 6). Export: [`data/advanced/chunks.json`](../../data/advanced/chunks.json) — **547** chunk (`text` 396 · `table` 134 · `figure` 17). Crop mẫu: `assets/advanced/figures/`.
+- Phần hạn chế: vài trang watermark/layout phức tạp làm bảng lệch cột; đã bổ sung bảng KPI/thù lao curated từ PDF gốc cho trang then chốt. Số liệu hình luôn đối chiếu caption với trang PDF (không chỉ tin OCR).
+
+### Benchmark riêng
+
+- File: [`data/advanced/questions.json`](../../data/advanced/questions.json) — **48** câu; **dev 18** (15+3) / **test 30** (24+6). Nhóm test: bảng 6 · ảnh 5 · biểu đồ 5 · multi-hop 4 · text 4 · unanswerable 6. Chia split trước khi chỉnh pipeline; gold không đưa vào agent.
+
+### Thử nghiệm và kết quả
+
+| Cấu hình | top-k / budget / max_search | Split | Đạt | Ghi chú |
+|---|---|---|---|---|
+| baseline | 3 / 1500 / 4 | dev | 10/18 (55.6%) | ít candidate cho bảng KPI |
+| improve | 5 / 2500 / 4 | dev | 9/18 (50.0%) | chưa seed modality + curated table |
+| **locked** | **5 / 2500 / 4** | **dev** | **17/18 (94.4%)** | search filter modality + bảng curated |
+| **locked** | **5 / 2500 / 4** | **test** | **27/30 (90.0%)** | đạt ngưỡng ≥90% |
+
+Test theo nhóm (locked): chart 5/5 · image 5/5 · table 6/6 · multi_hop 3/4 · text 2/4 · unanswerable 6/6. Lỗi hệ thống: **0**. Chi phí embedding local 0 USD; Gemini free-tier (có 429 → resume/sleep).
+
+Ba câu test không đạt (false abstention): **t17** (multi-hop PBT bảng p11 + hình p4), **t23**/**t24** (text p6 cổ phần / website) — retrieval không đưa đủ evidence vào context dù số liệu có trong PDF. Không bịa đáp án.
+
+Ví dụ đạt: **t01** (ROE bảng p11) trả lời đúng + citation `…:p011:table:…`; **t08** (sơ đồ tổ chức p10) dùng figure caption; câu unanswerable abstain đúng.
+
+Traces / reviews / summary: `starter/results/advanced-{dev,test}-locked-k5-b2500/` (force-add khi nộp). Lệnh chạy xem README mục Advanced.

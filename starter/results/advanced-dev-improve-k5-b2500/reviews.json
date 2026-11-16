@@ -1,0 +1,128 @@
+[
+  {
+    "query_id": "d01",
+    "group": "table",
+    "pass": false,
+    "reason": "status=abstain (need answered)",
+    "status": "abstain"
+  },
+  {
+    "query_id": "d02",
+    "group": "table",
+    "pass": false,
+    "reason": "citation pages {16} miss gold pages {11}",
+    "status": "answered"
+  },
+  {
+    "query_id": "d03",
+    "group": "table",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "d04",
+    "group": "image",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "d05",
+    "group": "image",
+    "pass": false,
+    "reason": "status=abstain (need answered)",
+    "status": "abstain"
+  },
+  {
+    "query_id": "d06",
+    "group": "chart",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "d07",
+    "group": "chart",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "d08",
+    "group": "text",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "d09",
+    "group": "text",
+    "pass": false,
+    "reason": "citation pages {69} miss gold pages {6}",
+    "status": "answered"
+  },
+  {
+    "query_id": "d10",
+    "group": "text",
+    "pass": false,
+    "reason": "citation pages {24} miss gold pages {20}",
+    "status": "answered"
+  },
+  {
+    "query_id": "d11",
+    "group": "multi_hop",
+    "pass": false,
+    "reason": "status=abstain (need answered)",
+    "status": "abstain"
+  },
+  {
+    "query_id": "d12",
+    "group": "multi_hop",
+    "pass": false,
+    "reason": "status=abstain (need answered)",
+    "status": "abstain"
+  },
+  {
+    "query_id": "d13",
+    "group": "table",
+    "pass": false,
+    "reason": "status=abstain (need answered)",
+    "status": "abstain"
+  },
+  {
+    "query_id": "d14",
+    "group": "image",
+    "pass": false,
+    "reason": "status=abstain (need answered)",
+    "status": "abstain"
+  },
+  {
+    "query_id": "d15",
+    "group": "chart",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "du1",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "abstain ok",
+    "status": "abstain"
+  },
+  {
+    "query_id": "du2",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "abstain ok",
+    "status": "abstain"
+  },
+  {
+    "query_id": "du3",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "abstain ok",
+    "status": "abstain"
+  }
+]

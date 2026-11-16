@@ -1,0 +1,38 @@
+{
+  "n_pass": 10,
+  "n_total": 18,
+  "rate": 55.56,
+  "by_group": {
+    "chart": {
+      "pass": 3,
+      "total": 3,
+      "rate": 100.0
+    },
+    "image": {
+      "pass": 2,
+      "total": 3,
+      "rate": 66.67
+    },
+    "multi_hop": {
+      "pass": 0,
+      "total": 2,
+      "rate": 0.0
+    },
+    "table": {
+      "pass": 1,
+      "total": 4,
+      "rate": 25.0
+    },
+    "text": {
+      "pass": 1,
+      "total": 3,
+      "rate": 33.33
+    },
+    "unanswerable": {
+      "pass": 3,
+      "total": 3,
+      "rate": 100.0
+    }
+  },
+  "errors": 0
+}

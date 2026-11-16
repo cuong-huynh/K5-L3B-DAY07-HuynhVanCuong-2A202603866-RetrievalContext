@@ -1,0 +1,749 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "Theo bảng Các chỉ số tài chính cơ bản, Tổng tài sản năm 2024 của Vietcombank là bao nhiêu (đơn vị như trong bảng)?",
+    "expected_answer": "2.085.874 (cùng đơn vị bảng chỉ số tài chính cơ bản).",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "Tổng tài sản | 2024 = 2.085.874",
+        "quote": "Tổng tài sản\n1.839.725\n 2.085.874"
+      }
+    ]
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "Lợi nhuận trước thuế năm 2024 trong bảng chỉ số tài chính cơ bản là bao nhiêu?",
+    "expected_answer": "42.236",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "Lợi nhuận trước thuế 2024",
+        "quote": "Lợi nhuận trước thuế\n41.328\n 42.236"
+      }
+    ]
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "ROAE năm 2024 theo bảng chỉ số an toàn và hiệu quả là bao nhiêu phần trăm?",
+    "expected_answer": "18,74%",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "ROAE 2024",
+        "quote": "ROAE\n22,03%\n18,74%"
+      }
+    ]
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "group": "image",
+    "answerable": true,
+    "question": "Trong sơ đồ tổ chức trang mô hình quản trị, khối nào phụ trách CNTT và chuyển đổi số?",
+    "expected_answer": "KHỐI CNTT & CĐS",
+    "evidence": [
+      {
+        "page": 10,
+        "modality": "figure",
+        "ref": "org diagram",
+        "quote": "KHỐI CNTT &CĐS"
+      }
+    ]
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "group": "image",
+    "answerable": true,
+    "question": "Theo sơ đồ quản trị, Ủy ban nào thuộc Hội đồng Quản trị phụ trách quản lý rủi ro?",
+    "expected_answer": "ỦY BAN QUẢN LÝ RỦI RO",
+    "evidence": [
+      {
+        "page": 10,
+        "modality": "figure",
+        "ref": "org diagram",
+        "quote": "ỦY BAN QUẢN LÝ RỦI RO"
+      }
+    ]
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true,
+    "question": "Trên infographic định hướng phát triển, Vietcombank đặt mục tiêu thuộc TOP bao nhiêu ngân hàng lớn nhất khu vực Châu Á?",
+    "expected_answer": "TOP 100",
+    "evidence": [
+      {
+        "page": 12,
+        "modality": "figure",
+        "ref": "strategy infographic",
+        "quote": "TOP \n100\nNGÂN HÀNG \nLỚN NHẤT \nKHU VỰC CHÂU Á"
+      }
+    ]
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true,
+    "question": "Infographic chiến lược nêu mục tiêu TOP bao nhiêu tập đoàn tài chính ngân hàng lớn nhất thế giới?",
+    "expected_answer": "TOP 300",
+    "evidence": [
+      {
+        "page": 12,
+        "modality": "figure",
+        "ref": "strategy infographic",
+        "quote": "TOP \n300\nTẬP ĐOÀN TÀI CHÍNH \nNGÂN HÀNG LỚN NHẤT \nTHẾ GIỚI"
+      }
+    ]
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "group": "text",
+    "answerable": true,
+    "question": "Mã cổ phiếu của Vietcombank được ghi trong phần thông tin khái quát là gì?",
+    "expected_answer": "VCB",
+    "evidence": [
+      {
+        "page": 6,
+        "modality": "text",
+        "ref": "thông tin khái quát",
+        "quote": "MÃ CỔ PHIẾU: VCB"
+      }
+    ]
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "group": "text",
+    "answerable": true,
+    "question": "Địa chỉ trụ sở trong thông tin khái quát bắt đầu bằng số nhà nào trên phố Trần Quang Khải?",
+    "expected_answer": "198 Trần Quang Khải",
+    "evidence": [
+      {
+        "page": 6,
+        "modality": "text",
+        "ref": "địa chỉ",
+        "quote": "198 Trần Quang Khải, Phường Lý Thái Tổ"
+      }
+    ]
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "group": "text",
+    "answerable": true,
+    "question": "Phương châm hành động năm 2024 được Ban Lãnh đạo quán triệt trong phần đánh giá kết quả hoạt động là gì?",
+    "expected_answer": "“Chuyển đổi, Hiệu quả, Bền vững”",
+    "evidence": [
+      {
+        "page": 20,
+        "modality": "text",
+        "ref": "đánh giá KQKD",
+        "quote": "phương châm hành động: “Chuyển đổi, Hiệu quả, Bền vững”"
+      },
+      {
+        "page": 24,
+        "modality": "text",
+        "ref": "cùng cụm trên báo cáo",
+        "quote": "Chuyển đổi, hiệu quả, bền vững"
+      }
+    ]
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "group": "multi_hop",
+    "answerable": true,
+    "question": "So sánh Tổng tài sản 2023 và 2024 trong bảng chỉ số: năm nào cao hơn và chênh lệch tuyệt đối là bao nhiêu?",
+    "expected_answer": "2024 cao hơn; 2.085.874 − 1.839.725 = 246.149",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "TTS 2023",
+        "quote": "Tổng tài sản\n1.839.725"
+      },
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "TTS 2024",
+        "quote": "2.085.874"
+      }
+    ]
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "group": "multi_hop",
+    "answerable": true,
+    "question": "NIM năm 2024 thấp hơn NIM năm 2023 bao nhiêu điểm phần trăm theo bảng chỉ số?",
+    "expected_answer": "0,14 điểm phần trăm (3,00% → 2,86%)",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "NIM",
+        "quote": "NIM\n3,00%\n2,86%"
+      }
+    ]
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "Theo bảng thù lao theo giới tính, thù lao bình quân năm 2024 của thành viên Hội đồng quản trị nữ là bao nhiêu triệu VND?",
+    "expected_answer": "2.249 triệu VND",
+    "evidence": [
+      {
+        "page": 39,
+        "modality": "table",
+        "ref": "HĐQT Nữ",
+        "quote": "Nữ\n2.249\n1"
+      }
+    ]
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "group": "image",
+    "answerable": true,
+    "question": "Sơ đồ tổ chức liệt kê những ủy ban nào trực thuộc Hội đồng Quản trị (ngoài Ban Chiến lược và Thư ký HĐQT)?",
+    "expected_answer": "Ủy ban Nhân sự và Ủy ban Quản lý rủi ro",
+    "evidence": [
+      {
+        "page": 10,
+        "modality": "figure",
+        "ref": "org",
+        "quote": "ỦY BAN NHÂN SỰ \nỦY BAN QUẢN LÝ RỦI RO"
+      }
+    ]
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true,
+    "question": "Theo hình thông điệp lãnh đạo, lợi nhuận trước thuế 2024 tăng bao nhiêu phần trăm so với 2023?",
+    "expected_answer": "tăng 2%",
+    "evidence": [
+      {
+        "page": 4,
+        "modality": "figure",
+        "ref": "leadership visual",
+        "quote": "Lợi nhuận trước thuế đạt 42.236 tỷ đồng (tăng 2% so với năm 2023)"
+      }
+    ]
+  },
+  {
+    "id": "du1",
+    "split": "dev",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Báo cáo nêu rõ số lượng ATM Vietcombank tại tỉnh Lai Châu năm 2024 là bao nhiêu?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có bảng/phân bổ ATM theo tỉnh Lai Châu trong BCTN 2024."
+  },
+  {
+    "id": "du2",
+    "split": "dev",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Tỷ lệ khách hàng dùng app VCB Digibank trên iOS so với Android năm 2024 là bao nhiêu?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có số liệu phân tách iOS/Android."
+  },
+  {
+    "id": "du3",
+    "split": "dev",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Chi phí marketing TikTok Ads quý 3/2024 của Vietcombank là bao nhiêu tỷ đồng?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có khoản mục TikTok Ads theo quý."
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Vốn chủ sở hữu năm 2024 theo bảng chỉ số tài chính cơ bản là bao nhiêu?",
+    "expected_answer": "196.209",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "Vốn CSH 2024",
+        "quote": "Vốn chủ sở hữu\n165.080\n 196.209"
+      }
+    ]
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Tỷ lệ nợ xấu năm 2024 trong bảng chỉ số an toàn là bao nhiêu?",
+    "expected_answer": "0,96%",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "Nợ xấu 2024",
+        "quote": "Tỷ lệ nợ xấu\n0,99%\n0,96%"
+      }
+    ]
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Hệ số an toàn vốn CAR năm 2024 là bao nhiêu phần trăm?",
+    "expected_answer": "12,16%",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "CAR 2024",
+        "quote": "Hệ số an toàn vốn CAR\n11,39%\n12,16%"
+      }
+    ]
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Thu nhập thuần từ lãi năm 2024 theo bảng là bao nhiêu?",
+    "expected_answer": "55.406",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "NII 2024",
+        "quote": "Thu nhập thuần từ lãi\n53.614\n55.406"
+      }
+    ]
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Trong bảng thù lao theo giới tính, số lượng thành viên Ban Điều hành nam năm 2024 là bao nhiêu?",
+    "expected_answer": "5",
+    "evidence": [
+      {
+        "page": 39,
+        "modality": "table",
+        "ref": "BĐH Nam",
+        "quote": "Ban Điều hành\n1.788\n9\nNam\n1.838\n5"
+      }
+    ]
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Thu nhập bình quân năm 2024 của thành viên Hội đồng quản trị (tổng HĐQT) là bao nhiêu triệu VND?",
+    "expected_answer": "1.744 triệu VND",
+    "evidence": [
+      {
+        "page": 39,
+        "modality": "table",
+        "ref": "HĐQT avg",
+        "quote": "Hội đồng quản trị\n1.744\n8"
+      }
+    ]
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "Theo sơ đồ tổ chức, cơ quan nào đứng trên Hội đồng Quản trị trong mô hình quản trị?",
+    "expected_answer": "ĐẠI HỘI ĐỒNG CỔ ĐÔNG",
+    "evidence": [
+      {
+        "page": 10,
+        "modality": "figure",
+        "ref": "org",
+        "quote": "ĐẠI HỘI ĐỒNG \nCỔ ĐÔNG"
+      }
+    ]
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "Sơ đồ liệt kê khối nào phụ trách pháp chế và tuân thủ?",
+    "expected_answer": "KHỐI PHÁP CHẾ VÀ TUÂN THỦ",
+    "evidence": [
+      {
+        "page": 10,
+        "modality": "figure",
+        "ref": "org",
+        "quote": "KHỐI PHÁP CHẾ VÀ \nTUÂN THỦ"
+      }
+    ]
+  },
+  {
+    "id": "t09",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "Trong sơ đồ, Ban Kiểm soát có hai phòng nào được nêu tên?",
+    "expected_answer": "Phòng Giám sát hoạt động và Phòng Kiểm toán nội bộ",
+    "evidence": [
+      {
+        "page": 10,
+        "modality": "figure",
+        "ref": "org",
+        "quote": "PHÒNG GIÁM SÁT \nHOẠT ĐỘNG\nPHÒNG KIỂM TOÁN \nNỘI BỘ"
+      }
+    ]
+  },
+  {
+    "id": "t10",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "Hình thông điệp lãnh đạo nêu tổng tài sản 2024 đạt hơn bao nhiêu triệu tỷ đồng và tăng bao nhiêu % so với 2023?",
+    "expected_answer": "hơn 2 triệu tỷ đồng; tăng 13%",
+    "evidence": [
+      {
+        "page": 4,
+        "modality": "figure",
+        "ref": "leadership",
+        "quote": "Tổng tài sản đạt hơn 2 triệu tỷ đồng (tăng 13% so với năm 2023)"
+      }
+    ]
+  },
+  {
+    "id": "t11",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "Trang định hướng phát triển nêu mục tiêu dẫn đầu về lĩnh vực ESG với nội dung gì?",
+    "expected_answer": "Dẫn đầu về quản trị môi trường, xã hội và doanh nghiệp (ESG).",
+    "evidence": [
+      {
+        "page": 12,
+        "modality": "figure",
+        "ref": "strategy",
+        "quote": "Dẫn đầu về quản trị môi \ntrường, xã hội và doanh \nnghiệp (ESG)."
+      },
+      {
+        "page": 22,
+        "modality": "text",
+        "ref": "ESG elsewhere",
+        "quote": "ESG"
+      },
+      {
+        "page": 48,
+        "modality": "text",
+        "ref": "ESG narrative",
+        "quote": "ESG"
+      }
+    ]
+  },
+  {
+    "id": "t12",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "Infographic chiến lược đặt mục tiêu TOP bao nhiêu doanh nghiệp niêm yết lớn nhất toàn cầu?",
+    "expected_answer": "TOP 1000",
+    "evidence": [
+      {
+        "page": 12,
+        "modality": "figure",
+        "ref": "TOP1000",
+        "quote": "TOP \n1000\nDOANH NGHIỆP NIÊM YẾT \nLỚN NHẤT TOÀN CẦU"
+      }
+    ]
+  },
+  {
+    "id": "t13",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "Theo các chỉ số trên trang KPI, ROAA năm 2024 là bao nhiêu và thấp hơn năm 2023 thế nào?",
+    "expected_answer": "1,72%; thấp hơn 2023 (1,81%)",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "figure",
+        "ref": "ROAA visual/table page",
+        "quote": "ROAA\n1,81%\n1,72%"
+      }
+    ]
+  },
+  {
+    "id": "t14",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "Tỷ lệ cho vay khách hàng trên tổng tài sản (Cho vay khách hàng/TTS) năm 2024 là bao nhiêu phần trăm?",
+    "expected_answer": "69,5%",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "loan/assets",
+        "quote": "Cho vay khách hàng/TTS\n69,1%\n69,5%"
+      }
+    ]
+  },
+  {
+    "id": "t15",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "So với 2023, chi phí dự phòng rủi ro tín dụng năm 2024 trong bảng KPI thay đổi thế nào (giá trị tuyệt đối)?",
+    "expected_answer": "Giảm về mức 3.315 (từ 4.530)",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "provision",
+        "quote": "Chi phí dự phòng rủi ro tín dụng\n-4.530\n-3.315"
+      }
+    ]
+  },
+  {
+    "id": "t16",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "Mục tiêu chiến lược đến 2025 trên infographic nêu “Số 1 về quy mô lợi nhuận” kèm định hướng thu nhập thế nào?",
+    "expected_answer": "Cơ cấu thu nhập đa dạng, tăng tỷ trọng thu nhập phi tín dụng.",
+    "evidence": [
+      {
+        "page": 12,
+        "modality": "figure",
+        "ref": "strategy text",
+        "quote": "Số 1 về quy mô lợi nhuận; \ncó cơ cấu thu nhập đa dạng, \nchuyển dịch theo hướng gia \ntăng tỷ trọng thu nhập phi \ntín dụng."
+      }
+    ]
+  },
+  {
+    "id": "t17",
+    "split": "test",
+    "group": "multi_hop",
+    "answerable": true,
+    "question": "Lấy Lợi nhuận trước thuế 2024 từ bảng KPI và xác nhận cùng con số được nhắc trong thông điệp lãnh đạo; con số đó là bao nhiêu?",
+    "expected_answer": "42.236",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "PBT table",
+        "quote": "42.236"
+      },
+      {
+        "page": 4,
+        "modality": "figure",
+        "ref": "PBT message",
+        "quote": "42.236 tỷ đồng"
+      }
+    ]
+  },
+  {
+    "id": "t18",
+    "split": "test",
+    "group": "multi_hop",
+    "answerable": true,
+    "question": "Từ bảng KPI, tính Lợi nhuận sau thuế 2024 trừ Lợi nhuận sau thuế 2023.",
+    "expected_answer": "33.853 − 33.122 = 731",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "PAT",
+        "quote": "Lợi nhuận sau thuế\n33.122\n 33.853"
+      }
+    ]
+  },
+  {
+    "id": "t19",
+    "split": "test",
+    "group": "multi_hop",
+    "answerable": true,
+    "question": "Kết hợp sơ đồ tổ chức và phần đánh giá điều hành: Vietcombank có đẩy mạnh tín dụng theo hướng nào ngay từ đầu năm 2024?",
+    "expected_answer": "Tăng trưởng an toàn, tập trung khách hàng truyền thống và ngành định hướng mở rộng.",
+    "evidence": [
+      {
+        "page": 21,
+        "modality": "text",
+        "ref": "điều hành",
+        "quote": "điều hành tín dụng tăng trưởng an toàn"
+      },
+      {
+        "page": 10,
+        "modality": "figure",
+        "ref": "org context",
+        "quote": "KHỐI BÁN BUÔN"
+      }
+    ]
+  },
+  {
+    "id": "t20",
+    "split": "test",
+    "group": "multi_hop",
+    "answerable": true,
+    "question": "Theo bảng KPI, tổng thu nhập hoạt động kinh doanh 2024 là bao nhiêu và cao hơn 2023 bao nhiêu?",
+    "expected_answer": "68.578; cao hơn 814 so với 67.764",
+    "evidence": [
+      {
+        "page": 11,
+        "modality": "table",
+        "ref": "TOI",
+        "quote": "Tổng thu nhập hoạt động kinh doanh\n67.764\n68.578"
+      }
+    ]
+  },
+  {
+    "id": "t21",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "Tên tiếng Anh đầy đủ của Vietcombank trong thông tin khái quát là gì?",
+    "expected_answer": "JOINT STOCK COMMERCIAL BANK FOR FOREIGN TRADE OF VIET NAM",
+    "evidence": [
+      {
+        "page": 6,
+        "modality": "text",
+        "ref": "English name",
+        "quote": "JOINT STOCK COMMERCIAL BANK \nFOR FOREIGN TRADE OF VIET NAM"
+      }
+    ]
+  },
+  {
+    "id": "t22",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "Mệnh giá mỗi cổ phần Vietcombank là bao nhiêu đồng?",
+    "expected_answer": "10.000 đồng",
+    "evidence": [
+      {
+        "page": 6,
+        "modality": "text",
+        "ref": "par value",
+        "quote": "Mệnh giá cổ phần\n10.000 đồng"
+      },
+      {
+        "page": 69,
+        "modality": "text",
+        "ref": "par value notes",
+        "quote": "10.000 đồng"
+      }
+    ]
+  },
+  {
+    "id": "t23",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "Tổng số cổ phần được nêu trong thông tin khái quát là bao nhiêu?",
+    "expected_answer": "5.589.091.262",
+    "evidence": [
+      {
+        "page": 6,
+        "modality": "text",
+        "ref": "shares",
+        "quote": "Tổng số cổ phần\n5.589.091.262"
+      }
+    ]
+  },
+  {
+    "id": "t24",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "Website chính thức ghi trong thông tin khái quát là gì?",
+    "expected_answer": "www.vietcombank.com.vn",
+    "evidence": [
+      {
+        "page": 6,
+        "modality": "text",
+        "ref": "website",
+        "quote": "www.vietcombank.com.vn"
+      }
+    ]
+  },
+  {
+    "id": "tu1",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Số lượng thẻ tín dụng Visa Infinite phát hành mới tại TP. Cần Thơ năm 2024?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có số liệu thẻ theo sản phẩm/tỉnh."
+  },
+  {
+    "id": "tu2",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Lương CEO theo từng tháng trong năm 2024 là bao nhiêu?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chỉ có thù lao bình quân/năm, không chi tiết theo tháng cho CEO."
+  },
+  {
+    "id": "tu3",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Tỷ giá USD/VND trung bình do Vietcombank công bố ngày 15/06/2024 trong báo cáo này?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có bảng tỷ giá theo ngày."
+  },
+  {
+    "id": "tu4",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Công suất tiêu thụ điện (kWh) của data center Vietcombank năm 2024?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có số liệu kWh data center."
+  },
+  {
+    "id": "tu5",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Số nhân viên nghỉ việc đúng quy trình tại chi nhánh Đà Nẵng năm 2024?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có thống kê nghỉ việc theo chi nhánh."
+  },
+  {
+    "id": "tu6",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "Giá đóng cửa cổ phiếu VCB phiên 31/12/2024 trên HOSE theo báo cáo này?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "BCTN không chốt giá đóng cửa phiên cụ thể 31/12/2024."
+  }
+]

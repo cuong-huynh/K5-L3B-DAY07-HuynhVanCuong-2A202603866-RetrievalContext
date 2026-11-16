@@ -1,0 +1,182 @@
+[
+  {
+    "id": "t01",
+    "split": "test",
+    "answerable": true,
+    "group": "table"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "answerable": true,
+    "group": "table"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "answerable": true,
+    "group": "table"
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "answerable": true,
+    "group": "table"
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "answerable": true,
+    "group": "table"
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "answerable": true,
+    "group": "table"
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "answerable": true,
+    "group": "image"
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "answerable": true,
+    "group": "image"
+  },
+  {
+    "id": "t09",
+    "split": "test",
+    "answerable": true,
+    "group": "image"
+  },
+  {
+    "id": "t10",
+    "split": "test",
+    "answerable": true,
+    "group": "image"
+  },
+  {
+    "id": "t11",
+    "split": "test",
+    "answerable": true,
+    "group": "image"
+  },
+  {
+    "id": "t12",
+    "split": "test",
+    "answerable": true,
+    "group": "chart"
+  },
+  {
+    "id": "t13",
+    "split": "test",
+    "answerable": true,
+    "group": "chart"
+  },
+  {
+    "id": "t14",
+    "split": "test",
+    "answerable": true,
+    "group": "chart"
+  },
+  {
+    "id": "t15",
+    "split": "test",
+    "answerable": true,
+    "group": "chart"
+  },
+  {
+    "id": "t16",
+    "split": "test",
+    "answerable": true,
+    "group": "chart"
+  },
+  {
+    "id": "t17",
+    "split": "test",
+    "answerable": true,
+    "group": "multi_hop"
+  },
+  {
+    "id": "t18",
+    "split": "test",
+    "answerable": true,
+    "group": "multi_hop"
+  },
+  {
+    "id": "t19",
+    "split": "test",
+    "answerable": true,
+    "group": "multi_hop"
+  },
+  {
+    "id": "t20",
+    "split": "test",
+    "answerable": true,
+    "group": "multi_hop"
+  },
+  {
+    "id": "t21",
+    "split": "test",
+    "answerable": true,
+    "group": "text"
+  },
+  {
+    "id": "t22",
+    "split": "test",
+    "answerable": true,
+    "group": "text"
+  },
+  {
+    "id": "t23",
+    "split": "test",
+    "answerable": true,
+    "group": "text"
+  },
+  {
+    "id": "t24",
+    "split": "test",
+    "answerable": true,
+    "group": "text"
+  },
+  {
+    "id": "tu1",
+    "split": "test",
+    "answerable": false,
+    "group": "unanswerable"
+  },
+  {
+    "id": "tu2",
+    "split": "test",
+    "answerable": false,
+    "group": "unanswerable"
+  },
+  {
+    "id": "tu3",
+    "split": "test",
+    "answerable": false,
+    "group": "unanswerable"
+  },
+  {
+    "id": "tu4",
+    "split": "test",
+    "answerable": false,
+    "group": "unanswerable"
+  },
+  {
+    "id": "tu5",
+    "split": "test",
+    "answerable": false,
+    "group": "unanswerable"
+  },
+  {
+    "id": "tu6",
+    "split": "test",
+    "answerable": false,
+    "group": "unanswerable"
+  }
+]

@@ -10,3 +10,4 @@
 | `build_reviews.py` | Tạo reviews từ đối chiếu gold/evidence |
 | `export_chunks.py` | Export chunks từ Postgres Day 6 |
 | `metrics.py` | Metric retrieval dùng chung |
+| `advanced/` | Multimodal BCTN VCB: `ingest`, `store`, `retriever`, `controller`, `run_agent`, `resume_agent`, `grade`, `make_benchmark` |

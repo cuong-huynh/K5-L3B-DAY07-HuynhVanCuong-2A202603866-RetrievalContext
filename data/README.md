@@ -6,4 +6,11 @@
 - **`agent_cases.json`**: schema gọn cho runner agent.
 - File `example_*.json` chỉ minh họa; không đủ để nộp.
 
+## Advanced (`data/advanced/`)
+
+- **`manifest.json`**: nguồn BCTN VCB 2024, SHA-256, quyền sử dụng.
+- **`raw/vcb-bctn-2024.pdf`**: bản PDF dùng để index (có thể tải lại theo URL trong manifest).
+- **`chunks.json`**: 547 chunk `{id, page, modality, text, region, metadata}` (text/table/figure).
+- **`questions.json`**: benchmark riêng 48 câu (dev 18 / test 30), gold evidence theo trang + modality.
+
 Không đưa `gold` vào model/retriever khi chạy agent.

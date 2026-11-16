@@ -1,0 +1,12 @@
+{
+  "split": "test",
+  "top_k": 5,
+  "budget": 2500,
+  "max_searches": 4,
+  "n": 30,
+  "answered": 21,
+  "abstain": 9,
+  "errors": 0,
+  "locked": true,
+  "note": "Config locked on advanced-dev-locked-k5-b2500 (17/18). Test graded 27/30=90%."
+}

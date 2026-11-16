@@ -1,0 +1,25 @@
+{
+  "document_id": "vcb-bctn-2024",
+  "title": "Báo cáo thường niên 2024 — Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank)",
+  "language": "vi",
+  "year": 2024,
+  "pages": 106,
+  "file": "raw/vcb-bctn-2024.pdf",
+  "source_url": "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/Nha-Dau-tu/Files/BC-dinh-ky/BC-thuong-nien/2024/VN_VCB-Annual-Report-2024_Full_250426_FN_compressed.pdf",
+  "downloaded_at": "2026-11-16",
+  "sha256": "9deccc3518e23302d00353b4d371a9dd251b67b12f9fe58a4da4ad3c727e99f8",
+  "size_bytes": 3394000,
+  "rights": "Báo cáo công bố công khai trên website Vietcombank phục vụ nhà đầu tư; dùng cho mục đích học tập/lab, không tái phân phối thương mại. Người chấm truy cập được qua source_url.",
+  "modality_notes": {
+    "text": "Toàn bộ 106 trang có lớp chữ (PyMuPDF).",
+    "tables": "≥50 trang detect được bảng (find_tables), ví dụ p11 chỉ số tài chính, p39 thù lao HĐQT.",
+    "images_diagrams": "48 trang có ảnh nhúng; p10 sơ đồ tổ chức; nhiều trang có infographic chiến lược.",
+    "charts": "Các trang KPI/tăng trưởng có hình trực quan + số liệu đi kèm (đối chiếu caption với PDF gốc)."
+  },
+  "sample_pages": {
+    "table": [11, 39, 94, 100],
+    "org_diagram": [10],
+    "strategy_visual": [12],
+    "kpi_narrative": [4, 20, 21]
+  }
+}

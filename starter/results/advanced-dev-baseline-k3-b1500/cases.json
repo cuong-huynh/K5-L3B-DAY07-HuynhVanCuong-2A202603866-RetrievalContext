@@ -1,0 +1,110 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "answerable": true,
+    "group": "table"
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "answerable": true,
+    "group": "table"
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "answerable": true,
+    "group": "table"
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "answerable": true,
+    "group": "image"
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "answerable": true,
+    "group": "image"
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "answerable": true,
+    "group": "chart"
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "answerable": true,
+    "group": "chart"
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "answerable": true,
+    "group": "text"
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "answerable": true,
+    "group": "text"
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "answerable": true,
+    "group": "text"
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "answerable": true,
+    "group": "multi_hop"
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "answerable": true,
+    "group": "multi_hop"
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "answerable": true,
+    "group": "table"
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "answerable": true,
+    "group": "image"
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "answerable": true,
+    "group": "chart"
+  },
+  {
+    "id": "du1",
+    "split": "dev",
+    "answerable": false,
+    "group": "unanswerable"
+  },
+  {
+    "id": "du2",
+    "split": "dev",
+    "answerable": false,
+    "group": "unanswerable"
+  },
+  {
+    "id": "du3",
+    "split": "dev",
+    "answerable": false,
+    "group": "unanswerable"
+  }
+]

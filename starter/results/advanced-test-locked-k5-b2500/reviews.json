@@ -1,0 +1,212 @@
+[
+  {
+    "query_id": "t01",
+    "group": "table",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t02",
+    "group": "table",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t03",
+    "group": "table",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t04",
+    "group": "table",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t05",
+    "group": "table",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t06",
+    "group": "table",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t07",
+    "group": "image",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t08",
+    "group": "image",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t09",
+    "group": "image",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t10",
+    "group": "image",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t11",
+    "group": "image",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t12",
+    "group": "chart",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t13",
+    "group": "chart",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t14",
+    "group": "chart",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t15",
+    "group": "chart",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t16",
+    "group": "chart",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t17",
+    "group": "multi_hop",
+    "pass": false,
+    "reason": "status=abstain (need answered)",
+    "status": "abstain"
+  },
+  {
+    "query_id": "t18",
+    "group": "multi_hop",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t19",
+    "group": "multi_hop",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t20",
+    "group": "multi_hop",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t21",
+    "group": "text",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t22",
+    "group": "text",
+    "pass": true,
+    "reason": "ok",
+    "status": "answered"
+  },
+  {
+    "query_id": "t23",
+    "group": "text",
+    "pass": false,
+    "reason": "status=abstain (need answered)",
+    "status": "abstain"
+  },
+  {
+    "query_id": "t24",
+    "group": "text",
+    "pass": false,
+    "reason": "status=abstain (need answered)",
+    "status": "abstain"
+  },
+  {
+    "query_id": "tu1",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "abstain ok",
+    "status": "abstain"
+  },
+  {
+    "query_id": "tu2",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "abstain ok",
+    "status": "abstain"
+  },
+  {
+    "query_id": "tu3",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "abstain ok",
+    "status": "abstain"
+  },
+  {
+    "query_id": "tu4",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "abstain ok",
+    "status": "abstain"
+  },
+  {
+    "query_id": "tu5",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "abstain ok",
+    "status": "abstain"
+  },
+  {
+    "query_id": "tu6",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "abstain ok",
+    "status": "abstain"
+  }
+]
